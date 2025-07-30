@@ -1,0 +1,201 @@
+Client ID,Currency Pair,Counterparty,Base Currency,Term Currency,Execution Venue,Product Type,Booking Location,Portfolio,Trade Source System,Custodian,Settlement Instructions,Netting Eligibility,KYC Status,Sanctions Screening,Settlement Currency,Cost Center,Expense Approval Status,Settlement Date,Settlement Method,Settlement Status,Approval Status
+CID5962,EUR/USD,HSBC,EUR,USD,Bloomberg,Forward,New York,PORT3,Murex,BNY Mellon,Special,Yes,Pending,Pending Review,USD,FX_FIN_03,Rejected,16-05-2025,CLS,Settled,Approved
+CID2693,USD/CHF,Citi,USD,CHF,EBS,Spot,Singapore,PORT3,Custom,BNY Mellon,Standard,No,Completed,Clear,CHF,FX_OPS_01,Under Review,26-05-2025,Wire,Settled,Approved
+CID5299,USD/JPY,Citi,USD,JPY,360T,Forward,Singapore,PORT1,Murex,JP Morgan,Urgent,Yes,Pending,Clear,JPY,FX_FIN_03,Under Review,22-05-2025,CLS,Failed,Approved
+CID4233,USD/JPY,JPMorgan,USD,JPY,Bloomberg,Spot,Singapore,PORT1,Murex,HSBC Custody,Standard,No,Pending,Flagged,JPY,FX_OPS_01,Under Review,05-06-2025,Wire,Settled,Approved
+CID7506,USD/INR,HSBC,USD,INR,EBS,Swap,New York,PORT2,Murex,BNY Mellon,Special,Yes,Rejected,Flagged,INR,FX_FIN_03,Under Review,02-06-2025,Netting,Pending,Approved
+CID1598,EUR/USD,Citi,EUR,USD,Reuters,Spot,London,PORT5,Murex,HSBC Custody,Special,No,Rejected,Clear,USD,FX_FIN_03,Under Review,17-05-2025,Netting,Failed,Approved
+CID8072,USD/INR,HSBC,USD,INR,360T,Forward,New York,PORT5,Custom,BNY Mellon,Special,No,Completed,Flagged,INR,FX_TRD_02,Rejected,14-05-2025,Wire,Pending,Approved
+CID7079,USD/CHF,Citi,USD,CHF,Reuters,Spot,Mumbai,PORT4,Custom,JP Morgan,Special,No,Completed,Clear,CHF,FX_OPS_01,Approved,18-05-2025,CLS,Pending,Approved
+CID8079,GBP/USD,Deutsche,GBP,USD,360T,Swap,London,PORT4,Custom,State Street,Special,No,Completed,Clear,USD,FX_FIN_03,Under Review,11-06-2025,Netting,Pending,Approved
+CID3450,USD/CHF,BNP Paribas,USD,CHF,Reuters,Swap,London,PORT1,Summit,State Street,Urgent,No,Completed,Pending Review,CHF,FX_TRD_02,Rejected,30-05-2025,Netting,Failed,Approved
+CID1825,USD/INR,Deutsche,USD,INR,Bloomberg,Spot,Singapore,PORT4,Calypso,State Street,Special,No,Completed,Clear,INR,FX_FIN_03,Under Review,01-06-2025,CLS,Settled,Approved
+CID5493,USD/INR,Citi,USD,INR,EBS,Forward,Mumbai,PORT4,Custom,JP Morgan,Standard,No,Completed,Clear,INR,FX_FIN_03,Rejected,19-05-2025,Netting,Failed,Approved
+CID4114,AUD/USD,Citi,AUD,USD,Bloomberg,Spot,New York,PORT5,Custom,BNY Mellon,Special,Yes,Completed,Flagged,USD,FX_FIN_03,Approved,19-05-2025,Netting,Pending,Approved
+CID3503,GBP/USD,Deutsche,GBP,USD,360T,Forward,London,PORT2,Murex,State Street,Special,Yes,Rejected,Clear,USD,FX_FIN_03,Rejected,09-06-2025,Netting,Settled,Approved
+CID8748,AUD/USD,Citi,AUD,USD,Bloomberg,Spot,Singapore,PORT1,Custom,State Street,Urgent,No,Completed,Clear,USD,FX_OPS_01,Approved,06-06-2025,Wire,Settled,Approved
+CID3859,USD/INR,JPMorgan,USD,INR,Bloomberg,Forward,Mumbai,PORT2,Murex,HSBC Custody,Urgent,No,Pending,Pending Review,INR,FX_FIN_03,Rejected,22-05-2025,Netting,Failed,Approved
+CID1786,USD/CHF,BNP Paribas,USD,CHF,EBS,Spot,New York,PORT3,Custom,State Street,Urgent,No,Rejected,Clear,CHF,FX_TRD_02,Under Review,07-06-2025,Netting,Failed,Approved
+CID3588,USD/INR,BNP Paribas,USD,INR,Reuters,Swap,London,PORT4,Murex,State Street,Special,No,Rejected,Clear,INR,FX_TRD_02,Rejected,16-05-2025,CLS,Failed,Approved
+CID9597,USD/JPY,Citi,USD,JPY,Bloomberg,Swap,Mumbai,PORT3,Custom,State Street,Standard,Yes,Rejected,Pending Review,JPY,FX_OPS_01,Under Review,28-05-2025,Netting,Settled,Approved
+CID2179,GBP/USD,JPMorgan,GBP,USD,Reuters,Swap,Singapore,PORT3,Custom,BNY Mellon,Urgent,No,Rejected,Flagged,USD,FX_OPS_01,Rejected,03-06-2025,Netting,Pending,Approved
+CID3462,USD/CHF,Deutsche,USD,CHF,Bloomberg,Forward,Singapore,PORT3,Summit,HSBC Custody,Urgent,No,Completed,Clear,CHF,FX_FIN_03,Approved,16-05-2025,CLS,Failed,Approved
+CID6403,GBP/USD,Deutsche,GBP,USD,EBS,Spot,London,PORT3,Calypso,State Street,Standard,No,Pending,Flagged,USD,FX_TRD_02,Approved,07-06-2025,CLS,Settled,Approved
+CID5173,AUD/USD,JPMorgan,AUD,USD,EBS,Swap,Mumbai,PORT5,Calypso,JP Morgan,Special,Yes,Rejected,Pending Review,USD,FX_TRD_02,Approved,16-05-2025,CLS,Failed,Approved
+CID1575,USD/JPY,JPMorgan,USD,JPY,Bloomberg,Spot,Mumbai,PORT5,Calypso,BNY Mellon,Urgent,No,Completed,Pending Review,JPY,FX_TRD_02,Rejected,21-05-2025,CLS,Failed,Approved
+CID9500,GBP/USD,Citi,GBP,USD,EBS,Forward,Singapore,PORT4,Custom,State Street,Special,No,Rejected,Flagged,USD,FX_FIN_03,Rejected,26-05-2025,Wire,Failed,Approved
+CID2619,AUD/USD,BNP Paribas,AUD,USD,360T,Forward,New York,PORT3,Summit,JP Morgan,Special,No,Completed,Pending Review,USD,FX_OPS_01,Under Review,31-05-2025,Wire,Settled,Approved
+CID8898,EUR/USD,Deutsche,EUR,USD,EBS,Spot,London,PORT5,Summit,JP Morgan,Urgent,Yes,Completed,Pending Review,USD,FX_OPS_01,Under Review,03-06-2025,CLS,Settled,Approved
+CID8625,EUR/USD,Citi,EUR,USD,EBS,Forward,London,PORT1,Summit,BNY Mellon,Special,No,Rejected,Clear,USD,FX_TRD_02,Rejected,24-05-2025,CLS,Settled,Approved
+CID2057,USD/CHF,HSBC,USD,CHF,Reuters,Swap,London,PORT4,Summit,BNY Mellon,Urgent,No,Rejected,Flagged,CHF,FX_FIN_03,Under Review,27-05-2025,Netting,Pending,Approved
+CID6126,AUD/USD,JPMorgan,AUD,USD,Bloomberg,Forward,Mumbai,PORT1,Summit,State Street,Standard,Yes,Pending,Flagged,USD,FX_OPS_01,Under Review,13-05-2025,Netting,Settled,Approved
+CID4521,USD/INR,Citi,USD,INR,EBS,Forward,New York,PORT1,Murex,JP Morgan,Urgent,Yes,Pending,Clear,INR,FX_OPS_01,Approved,07-06-2025,Wire,Settled,Approved
+CID9833,USD/CHF,Citi,USD,CHF,360T,Spot,London,PORT3,Calypso,HSBC Custody,Standard,Yes,Completed,Flagged,CHF,FX_TRD_02,Under Review,29-05-2025,Netting,Settled,Approved
+CID2486,AUD/USD,Deutsche,AUD,USD,Reuters,Forward,Singapore,PORT5,Murex,JP Morgan,Special,No,Rejected,Clear,USD,FX_OPS_01,Under Review,25-05-2025,CLS,Settled,Approved
+CID3303,USD/JPY,Deutsche,USD,JPY,EBS,Spot,Mumbai,PORT4,Calypso,HSBC Custody,Special,Yes,Pending,Clear,JPY,FX_TRD_02,Approved,24-05-2025,Netting,Failed,Approved
+CID6632,USD/CHF,HSBC,USD,CHF,Bloomberg,Swap,London,PORT4,Summit,HSBC Custody,Special,Yes,Rejected,Pending Review,CHF,FX_FIN_03,Rejected,03-06-2025,Netting,Settled,Approved
+CID8148,USD/JPY,JPMorgan,USD,JPY,EBS,Swap,New York,PORT3,Custom,JP Morgan,Standard,Yes,Completed,Clear,JPY,FX_TRD_02,Approved,17-05-2025,Wire,Settled,Approved
+CID3448,AUD/USD,Citi,AUD,USD,360T,Swap,Singapore,PORT5,Murex,JP Morgan,Standard,No,Pending,Pending Review,USD,FX_FIN_03,Rejected,21-05-2025,Wire,Settled,Approved
+CID1248,USD/CHF,Deutsche,USD,CHF,Reuters,Forward,New York,PORT2,Custom,BNY Mellon,Standard,Yes,Pending,Pending Review,CHF,FX_FIN_03,Approved,05-06-2025,Wire,Settled,Approved
+CID5796,GBP/USD,BNP Paribas,GBP,USD,EBS,Swap,London,PORT2,Calypso,JP Morgan,Urgent,Yes,Pending,Flagged,USD,FX_TRD_02,Rejected,05-06-2025,Wire,Settled,Approved
+CID4309,USD/INR,Citi,USD,INR,EBS,Swap,Singapore,PORT2,Calypso,State Street,Urgent,No,Pending,Clear,INR,FX_FIN_03,Rejected,06-06-2025,Netting,Pending,Approved
+CID4536,GBP/USD,HSBC,GBP,USD,Reuters,Swap,Mumbai,PORT1,Calypso,State Street,Standard,Yes,Rejected,Clear,USD,FX_TRD_02,Rejected,29-05-2025,CLS,Pending,Approved
+CID1242,USD/JPY,HSBC,USD,JPY,Bloomberg,Swap,London,PORT4,Murex,BNY Mellon,Urgent,Yes,Rejected,Pending Review,JPY,FX_TRD_02,Rejected,08-06-2025,CLS,Failed,Approved
+CID1487,AUD/USD,Citi,AUD,USD,360T,Swap,New York,PORT1,Summit,JP Morgan,Special,No,Rejected,Flagged,USD,FX_FIN_03,Under Review,24-05-2025,CLS,Failed,Approved
+CID7067,USD/CHF,JPMorgan,USD,CHF,360T,Spot,Mumbai,PORT3,Summit,State Street,Special,Yes,Completed,Clear,CHF,FX_TRD_02,Rejected,22-05-2025,CLS,Failed,Approved
+CID7892,USD/CHF,JPMorgan,USD,CHF,Bloomberg,Forward,New York,PORT4,Murex,State Street,Special,No,Completed,Flagged,CHF,FX_TRD_02,Approved,17-05-2025,Wire,Failed,Approved
+CID6879,USD/CHF,Citi,USD,CHF,EBS,Forward,London,PORT3,Custom,JP Morgan,Urgent,Yes,Pending,Flagged,CHF,FX_FIN_03,Under Review,23-05-2025,Wire,Failed,Approved
+CID4297,USD/INR,Citi,USD,INR,EBS,Spot,Singapore,PORT5,Summit,State Street,Standard,Yes,Pending,Pending Review,INR,FX_TRD_02,Approved,19-05-2025,CLS,Failed,Approved
+CID5807,EUR/USD,Deutsche,EUR,USD,Reuters,Spot,Singapore,PORT4,Calypso,JP Morgan,Urgent,No,Rejected,Clear,USD,FX_FIN_03,Rejected,15-05-2025,CLS,Settled,Approved
+CID5829,EUR/USD,Citi,EUR,USD,EBS,Forward,Mumbai,PORT1,Summit,JP Morgan,Urgent,No,Rejected,Pending Review,USD,FX_FIN_03,Approved,10-05-2025,CLS,Failed,Approved
+CID9833,USD/CHF,HSBC,USD,CHF,EBS,Forward,New York,PORT5,Custom,State Street,Urgent,No,Rejected,Flagged,CHF,FX_FIN_03,Rejected,26-05-2025,CLS,Pending,Approved
+CID6818,USD/CHF,Citi,USD,CHF,EBS,Spot,London,PORT3,Murex,State Street,Standard,No,Completed,Clear,CHF,FX_FIN_03,Rejected,05-06-2025,CLS,Failed,Approved
+CID8422,GBP/USD,JPMorgan,GBP,USD,Reuters,Spot,London,PORT4,Summit,State Street,Special,No,Completed,Clear,USD,FX_TRD_02,Rejected,28-05-2025,CLS,Failed,Approved
+CID6348,EUR/USD,JPMorgan,EUR,USD,EBS,Spot,Mumbai,PORT5,Summit,JP Morgan,Standard,No,Rejected,Clear,USD,FX_TRD_02,Rejected,04-06-2025,Wire,Settled,Approved
+CID4789,GBP/USD,JPMorgan,GBP,USD,EBS,Forward,Mumbai,PORT1,Murex,State Street,Urgent,No,Pending,Pending Review,USD,FX_TRD_02,Under Review,11-05-2025,Wire,Failed,Approved
+CID8687,GBP/USD,Citi,GBP,USD,360T,Swap,New York,PORT3,Custom,BNY Mellon,Special,No,Completed,Flagged,USD,FX_FIN_03,Under Review,05-06-2025,CLS,Settled,Approved
+CID3084,EUR/USD,Citi,EUR,USD,EBS,Swap,Singapore,PORT5,Summit,JP Morgan,Urgent,No,Rejected,Flagged,USD,FX_TRD_02,Rejected,20-05-2025,CLS,Pending,Approved
+CID9707,EUR/USD,Deutsche,EUR,USD,Bloomberg,Swap,London,PORT4,Custom,State Street,Urgent,No,Completed,Pending Review,USD,FX_TRD_02,Approved,26-05-2025,CLS,Pending,Approved
+CID6778,USD/INR,Citi,USD,INR,EBS,Spot,London,PORT4,Calypso,BNY Mellon,Special,Yes,Rejected,Pending Review,INR,FX_TRD_02,Rejected,24-05-2025,Wire,Pending,Approved
+CID5742,USD/INR,Citi,USD,INR,Reuters,Swap,Singapore,PORT4,Calypso,BNY Mellon,Special,Yes,Pending,Clear,INR,FX_OPS_01,Rejected,14-05-2025,CLS,Pending,Approved
+CID9195,USD/INR,Deutsche,USD,INR,EBS,Spot,London,PORT2,Summit,JP Morgan,Standard,Yes,Rejected,Pending Review,INR,FX_OPS_01,Rejected,20-05-2025,Netting,Settled,Approved
+CID8459,GBP/USD,Deutsche,GBP,USD,Reuters,Forward,London,PORT2,Murex,BNY Mellon,Special,No,Rejected,Clear,USD,FX_TRD_02,Approved,03-06-2025,Netting,Pending,Approved
+CID7015,USD/CHF,BNP Paribas,USD,CHF,Bloomberg,Swap,New York,PORT5,Murex,JP Morgan,Special,Yes,Pending,Pending Review,CHF,FX_TRD_02,Approved,10-06-2025,Netting,Failed,Approved
+CID2807,AUD/USD,Deutsche,AUD,USD,Bloomberg,Forward,London,PORT2,Summit,HSBC Custody,Standard,No,Completed,Clear,USD,FX_OPS_01,Under Review,15-05-2025,Netting,Settled,Approved
+CID4183,AUD/USD,BNP Paribas,AUD,USD,360T,Spot,Mumbai,PORT4,Summit,State Street,Urgent,Yes,Completed,Flagged,USD,FX_TRD_02,Under Review,05-06-2025,Wire,Failed,Approved
+CID4381,USD/INR,HSBC,USD,INR,Bloomberg,Forward,Singapore,PORT4,Calypso,HSBC Custody,Special,Yes,Pending,Clear,INR,FX_TRD_02,Approved,05-06-2025,CLS,Pending,Approved
+CID5063,AUD/USD,Citi,AUD,USD,360T,Spot,Singapore,PORT4,Calypso,HSBC Custody,Urgent,No,Rejected,Flagged,USD,FX_FIN_03,Rejected,04-06-2025,Wire,Failed,Approved
+CID4537,USD/INR,Citi,USD,INR,EBS,Forward,Mumbai,PORT2,Calypso,JP Morgan,Special,Yes,Completed,Flagged,INR,FX_OPS_01,Under Review,03-06-2025,Wire,Pending,Approved
+CID5248,GBP/USD,Deutsche,GBP,USD,Reuters,Forward,London,PORT1,Custom,BNY Mellon,Special,No,Completed,Clear,USD,FX_OPS_01,Under Review,24-05-2025,Wire,Settled,Approved
+CID4999,USD/JPY,BNP Paribas,USD,JPY,Reuters,Swap,New York,PORT1,Custom,State Street,Urgent,No,Completed,Flagged,JPY,FX_FIN_03,Rejected,05-06-2025,Netting,Pending,Approved
+CID4942,USD/CHF,Citi,USD,CHF,Bloomberg,Forward,Mumbai,PORT3,Calypso,HSBC Custody,Special,Yes,Rejected,Flagged,CHF,FX_OPS_01,Approved,08-06-2025,Wire,Pending,Approved
+CID8418,GBP/USD,BNP Paribas,GBP,USD,360T,Forward,Mumbai,PORT2,Murex,HSBC Custody,Standard,Yes,Pending,Pending Review,USD,FX_FIN_03,Rejected,12-05-2025,Wire,Failed,Approved
+CID9866,USD/INR,Citi,USD,INR,EBS,Forward,New York,PORT2,Summit,State Street,Special,No,Pending,Pending Review,INR,FX_TRD_02,Approved,14-05-2025,CLS,Pending,Approved
+CID1942,AUD/USD,Citi,AUD,USD,EBS,Spot,New York,PORT3,Murex,State Street,Standard,Yes,Rejected,Pending Review,USD,FX_OPS_01,Approved,24-05-2025,Wire,Settled,Approved
+CID8668,USD/JPY,Citi,USD,JPY,Bloomberg,Forward,New York,PORT4,Custom,JP Morgan,Urgent,No,Rejected,Flagged,JPY,FX_OPS_01,Approved,04-06-2025,Wire,Pending,Approved
+CID7322,USD/JPY,Citi,USD,JPY,360T,Forward,Singapore,PORT2,Calypso,State Street,Special,Yes,Rejected,Flagged,JPY,FX_FIN_03,Approved,31-05-2025,Netting,Failed,Approved
+CID8651,EUR/USD,Deutsche,EUR,USD,Bloomberg,Forward,Singapore,PORT3,Murex,State Street,Special,Yes,Completed,Clear,USD,FX_FIN_03,Approved,24-05-2025,Netting,Failed,Approved
+CID9471,USD/JPY,BNP Paribas,USD,JPY,EBS,Spot,Mumbai,PORT3,Calypso,JP Morgan,Standard,No,Pending,Clear,JPY,FX_TRD_02,Approved,15-05-2025,Wire,Settled,Approved
+CID7729,EUR/USD,HSBC,EUR,USD,EBS,Forward,Singapore,PORT5,Summit,State Street,Special,Yes,Completed,Flagged,USD,FX_TRD_02,Approved,17-05-2025,Wire,Pending,Approved
+CID4796,AUD/USD,Citi,AUD,USD,Reuters,Spot,Mumbai,PORT3,Calypso,HSBC Custody,Special,Yes,Rejected,Flagged,USD,FX_TRD_02,Rejected,17-05-2025,CLS,Settled,Approved
+CID5309,USD/CHF,Deutsche,USD,CHF,Reuters,Forward,Mumbai,PORT4,Summit,State Street,Standard,Yes,Completed,Pending Review,CHF,FX_FIN_03,Under Review,01-06-2025,Wire,Settled,Approved
+CID3938,GBP/USD,BNP Paribas,GBP,USD,Bloomberg,Spot,New York,PORT5,Summit,BNY Mellon,Standard,No,Pending,Flagged,USD,FX_TRD_02,Under Review,13-05-2025,Wire,Settled,Approved
+CID6006,EUR/USD,JPMorgan,EUR,USD,360T,Forward,New York,PORT4,Custom,JP Morgan,Urgent,No,Completed,Clear,USD,FX_TRD_02,Rejected,02-06-2025,Wire,Settled,Approved
+CID7938,USD/CHF,Deutsche,USD,CHF,Reuters,Forward,New York,PORT2,Murex,JP Morgan,Standard,Yes,Completed,Clear,CHF,FX_OPS_01,Under Review,16-05-2025,Wire,Settled,Approved
+CID6307,USD/CHF,Citi,USD,CHF,360T,Forward,Singapore,PORT5,Summit,JP Morgan,Urgent,Yes,Rejected,Pending Review,CHF,FX_TRD_02,Rejected,20-05-2025,Netting,Settled,Approved
+CID6882,USD/JPY,JPMorgan,USD,JPY,Reuters,Forward,New York,PORT2,Calypso,BNY Mellon,Urgent,Yes,Pending,Clear,JPY,FX_FIN_03,Rejected,10-05-2025,CLS,Failed,Approved
+CID2269,USD/CHF,HSBC,USD,CHF,Reuters,Spot,New York,PORT5,Murex,JP Morgan,Special,No,Pending,Clear,CHF,FX_TRD_02,Under Review,18-05-2025,CLS,Settled,Approved
+CID4080,USD/JPY,BNP Paribas,USD,JPY,Reuters,Forward,Singapore,PORT4,Summit,BNY Mellon,Urgent,No,Completed,Flagged,JPY,FX_FIN_03,Under Review,03-06-2025,CLS,Settled,Approved
+CID6831,EUR/USD,Deutsche,EUR,USD,360T,Forward,Singapore,PORT2,Calypso,State Street,Urgent,Yes,Rejected,Pending Review,USD,FX_FIN_03,Approved,23-05-2025,Wire,Settled,Approved
+CID8887,USD/JPY,Deutsche,USD,JPY,360T,Swap,London,PORT5,Calypso,BNY Mellon,Urgent,Yes,Completed,Flagged,JPY,FX_TRD_02,Under Review,02-06-2025,Wire,Failed,Approved
+CID7019,USD/JPY,Deutsche,USD,JPY,360T,Swap,London,PORT1,Calypso,State Street,Standard,Yes,Pending,Pending Review,JPY,FX_TRD_02,Under Review,06-06-2025,Wire,Pending,Approved
+CID1597,EUR/USD,Citi,EUR,USD,EBS,Swap,London,PORT2,Murex,HSBC Custody,Urgent,No,Pending,Flagged,USD,FX_TRD_02,Rejected,04-06-2025,Netting,Failed,Approved
+CID1821,AUD/USD,Citi,AUD,USD,EBS,Spot,London,PORT3,Summit,BNY Mellon,Standard,Yes,Pending,Clear,USD,FX_OPS_01,Rejected,13-05-2025,Netting,Pending,Approved
+CID4372,USD/JPY,BNP Paribas,USD,JPY,Reuters,Forward,Mumbai,PORT5,Summit,State Street,Standard,Yes,Rejected,Pending Review,JPY,FX_OPS_01,Under Review,26-05-2025,CLS,Pending,Approved
+CID9337,GBP/USD,Citi,GBP,USD,Bloomberg,Swap,Mumbai,PORT2,Summit,HSBC Custody,Urgent,Yes,Completed,Clear,USD,FX_TRD_02,Approved,29-05-2025,Netting,Settled,Approved
+CID1583,USD/INR,Citi,USD,INR,360T,Swap,New York,PORT5,Summit,BNY Mellon,Special,No,Pending,Pending Review,INR,FX_TRD_02,Under Review,11-06-2025,Netting,Failed,Approved
+CID3007,USD/CHF,HSBC,USD,CHF,Bloomberg,Forward,London,PORT1,Calypso,JP Morgan,Urgent,Yes,Completed,Pending Review,CHF,FX_OPS_01,Approved,09-06-2025,CLS,Failed,Approved
+CID6559,GBP/USD,BNP Paribas,GBP,USD,360T,Swap,Singapore,PORT1,Custom,HSBC Custody,Special,No,Pending,Flagged,USD,FX_OPS_01,Under Review,18-05-2025,Wire,Failed,Approved
+CID9878,EUR/USD,JPMorgan,EUR,USD,Bloomberg,Forward,London,PORT4,Summit,State Street,Urgent,Yes,Pending,Pending Review,USD,FX_FIN_03,Under Review,09-06-2025,Netting,Settled,Approved
+CID4865,USD/JPY,BNP Paribas,USD,JPY,EBS,Spot,Mumbai,PORT3,Murex,JP Morgan,Standard,No,Completed,Flagged,JPY,FX_FIN_03,Under Review,30-05-2025,CLS,Failed,Approved
+CID2481,AUD/USD,HSBC,AUD,USD,EBS,Forward,New York,PORT4,Murex,BNY Mellon,Special,No,Completed,Pending Review,USD,FX_TRD_02,Under Review,25-05-2025,Netting,Settled,Approved
+CID4116,GBP/USD,Deutsche,GBP,USD,Bloomberg,Forward,New York,PORT4,Custom,State Street,Standard,No,Completed,Pending Review,USD,FX_FIN_03,Approved,26-05-2025,Wire,Failed,Approved
+CID1055,AUD/USD,HSBC,AUD,USD,EBS,Spot,London,PORT2,Calypso,HSBC Custody,Standard,No,Rejected,Clear,USD,FX_FIN_03,Under Review,10-06-2025,Wire,Settled,Approved
+CID9715,AUD/USD,HSBC,AUD,USD,Reuters,Forward,Singapore,PORT3,Murex,JP Morgan,Special,No,Pending,Pending Review,USD,FX_FIN_03,Under Review,10-06-2025,Netting,Failed,Approved
+CID9246,EUR/USD,BNP Paribas,EUR,USD,EBS,Forward,London,PORT5,Calypso,BNY Mellon,Urgent,Yes,Completed,Pending Review,USD,FX_TRD_02,Approved,13-05-2025,Netting,Failed,Approved
+CID6045,AUD/USD,Citi,AUD,USD,360T,Spot,New York,PORT3,Custom,HSBC Custody,Special,No,Completed,Clear,USD,FX_OPS_01,Rejected,22-05-2025,CLS,Settled,Approved
+CID8160,EUR/USD,BNP Paribas,EUR,USD,EBS,Forward,New York,PORT4,Murex,HSBC Custody,Urgent,Yes,Rejected,Pending Review,USD,FX_TRD_02,Under Review,24-05-2025,Wire,Failed,Approved
+CID2723,EUR/USD,JPMorgan,EUR,USD,Bloomberg,Forward,Singapore,PORT5,Calypso,BNY Mellon,Special,Yes,Completed,Clear,USD,FX_TRD_02,Approved,01-06-2025,Wire,Pending,Approved
+CID2116,USD/CHF,HSBC,USD,CHF,EBS,Swap,London,PORT5,Summit,BNY Mellon,Urgent,Yes,Pending,Clear,CHF,FX_FIN_03,Under Review,20-05-2025,CLS,Pending,Approved
+CID6269,USD/INR,Citi,USD,INR,Reuters,Spot,London,PORT5,Summit,State Street,Standard,No,Completed,Flagged,INR,FX_TRD_02,Rejected,14-05-2025,Wire,Settled,Approved
+CID9666,GBP/USD,HSBC,GBP,USD,360T,Swap,London,PORT2,Custom,State Street,Standard,Yes,Completed,Flagged,USD,FX_TRD_02,Under Review,26-05-2025,CLS,Failed,Approved
+CID7178,EUR/USD,JPMorgan,EUR,USD,Bloomberg,Forward,New York,PORT4,Summit,JP Morgan,Special,No,Completed,Clear,USD,FX_FIN_03,Rejected,29-05-2025,Wire,Settled,Approved
+CID5064,USD/INR,JPMorgan,USD,INR,Bloomberg,Spot,Mumbai,PORT4,Summit,BNY Mellon,Special,Yes,Completed,Flagged,INR,FX_FIN_03,Under Review,11-06-2025,CLS,Failed,Approved
+CID1186,USD/INR,BNP Paribas,USD,INR,360T,Spot,Singapore,PORT3,Murex,BNY Mellon,Special,No,Completed,Pending Review,INR,FX_OPS_01,Under Review,09-06-2025,Netting,Failed,Approved
+CID8497,USD/CHF,Citi,USD,CHF,Reuters,Swap,Singapore,PORT4,Calypso,JP Morgan,Special,Yes,Rejected,Pending Review,CHF,FX_FIN_03,Rejected,27-05-2025,Netting,Pending,Approved
+CID8163,GBP/USD,JPMorgan,GBP,USD,360T,Spot,Singapore,PORT2,Calypso,BNY Mellon,Standard,Yes,Completed,Flagged,USD,FX_FIN_03,Rejected,31-05-2025,Wire,Failed,Approved
+CID6707,GBP/USD,Citi,GBP,USD,360T,Swap,Singapore,PORT5,Summit,HSBC Custody,Urgent,Yes,Completed,Flagged,USD,FX_TRD_02,Rejected,23-05-2025,CLS,Settled,Approved
+CID5457,USD/CHF,Deutsche,USD,CHF,EBS,Spot,Singapore,PORT1,Summit,BNY Mellon,Urgent,Yes,Rejected,Pending Review,CHF,FX_OPS_01,Under Review,23-05-2025,CLS,Failed,Approved
+CID3605,GBP/USD,HSBC,GBP,USD,Reuters,Forward,New York,PORT3,Summit,HSBC Custody,Special,Yes,Rejected,Clear,USD,FX_FIN_03,Approved,05-06-2025,Netting,Pending,Approved
+CID9648,EUR/USD,Deutsche,EUR,USD,Bloomberg,Spot,Mumbai,PORT4,Murex,State Street,Standard,No,Rejected,Clear,USD,FX_FIN_03,Under Review,22-05-2025,Netting,Pending,Approved
+CID8424,USD/INR,HSBC,USD,INR,EBS,Spot,Singapore,PORT1,Summit,HSBC Custody,Urgent,No,Completed,Pending Review,INR,FX_OPS_01,Under Review,01-06-2025,Wire,Pending,Approved
+CID2797,GBP/USD,JPMorgan,GBP,USD,Reuters,Swap,New York,PORT3,Summit,State Street,Standard,No,Completed,Clear,USD,FX_TRD_02,Under Review,16-05-2025,CLS,Pending,Approved
+CID5057,USD/CHF,BNP Paribas,USD,CHF,360T,Swap,New York,PORT5,Calypso,HSBC Custody,Special,No,Completed,Pending Review,CHF,FX_OPS_01,Approved,03-06-2025,Netting,Failed,Approved
+CID9624,AUD/USD,JPMorgan,AUD,USD,Bloomberg,Forward,London,PORT2,Custom,JP Morgan,Special,Yes,Completed,Flagged,USD,FX_FIN_03,Rejected,08-06-2025,Wire,Pending,Approved
+CID4378,USD/INR,HSBC,USD,INR,Reuters,Forward,Singapore,PORT5,Summit,HSBC Custody,Urgent,Yes,Pending,Flagged,INR,FX_FIN_03,Under Review,21-05-2025,Netting,Settled,Approved
+CID7338,USD/JPY,Deutsche,USD,JPY,Reuters,Forward,Mumbai,PORT5,Murex,State Street,Urgent,No,Rejected,Flagged,JPY,FX_TRD_02,Rejected,21-05-2025,Wire,Settled,Approved
+CID4416,USD/INR,JPMorgan,USD,INR,Reuters,Spot,New York,PORT2,Custom,HSBC Custody,Urgent,Yes,Pending,Pending Review,INR,FX_TRD_02,Rejected,28-05-2025,Netting,Settled,Approved
+CID5624,AUD/USD,JPMorgan,AUD,USD,EBS,Spot,London,PORT3,Custom,JP Morgan,Special,No,Completed,Pending Review,USD,FX_FIN_03,Approved,31-05-2025,CLS,Pending,Approved
+CID8346,USD/JPY,JPMorgan,USD,JPY,Reuters,Swap,London,PORT3,Murex,BNY Mellon,Special,Yes,Completed,Flagged,JPY,FX_FIN_03,Under Review,09-06-2025,Wire,Failed,Approved
+CID1558,EUR/USD,Deutsche,EUR,USD,360T,Swap,Singapore,PORT1,Summit,JP Morgan,Urgent,Yes,Pending,Clear,USD,FX_FIN_03,Under Review,27-05-2025,CLS,Settled,Approved
+CID5934,AUD/USD,Deutsche,AUD,USD,Reuters,Forward,New York,PORT2,Summit,BNY Mellon,Special,No,Pending,Clear,USD,FX_TRD_02,Rejected,02-06-2025,Wire,Failed,Approved
+CID5730,USD/INR,BNP Paribas,USD,INR,Reuters,Swap,London,PORT5,Summit,HSBC Custody,Standard,No,Pending,Flagged,INR,FX_TRD_02,Under Review,14-05-2025,CLS,Settled,Approved
+CID1734,AUD/USD,HSBC,AUD,USD,Bloomberg,Forward,Mumbai,PORT2,Custom,JP Morgan,Urgent,Yes,Completed,Clear,USD,FX_TRD_02,Under Review,04-06-2025,Wire,Pending,Approved
+CID2349,AUD/USD,JPMorgan,AUD,USD,360T,Spot,Mumbai,PORT1,Summit,JP Morgan,Urgent,No,Completed,Clear,USD,FX_TRD_02,Approved,25-05-2025,CLS,Failed,Approved
+CID7901,EUR/USD,Citi,EUR,USD,EBS,Spot,Singapore,PORT1,Summit,BNY Mellon,Urgent,No,Pending,Flagged,USD,FX_FIN_03,Under Review,12-05-2025,Wire,Failed,Approved
+CID7694,EUR/USD,BNP Paribas,EUR,USD,Bloomberg,Spot,New York,PORT1,Calypso,JP Morgan,Standard,Yes,Completed,Flagged,USD,FX_FIN_03,Approved,27-05-2025,Wire,Failed,Approved
+CID5490,AUD/USD,HSBC,AUD,USD,EBS,Forward,London,PORT4,Custom,BNY Mellon,Special,No,Completed,Clear,USD,FX_TRD_02,Approved,05-06-2025,Netting,Failed,Approved
+CID6327,USD/INR,Deutsche,USD,INR,360T,Forward,New York,PORT4,Calypso,State Street,Urgent,Yes,Completed,Clear,INR,FX_OPS_01,Approved,16-05-2025,Wire,Failed,Approved
+CID5055,USD/CHF,Citi,USD,CHF,Reuters,Spot,Singapore,PORT3,Custom,State Street,Special,No,Completed,Clear,CHF,FX_FIN_03,Approved,24-05-2025,Netting,Pending,Approved
+CID9212,USD/JPY,BNP Paribas,USD,JPY,Reuters,Swap,Singapore,PORT3,Custom,BNY Mellon,Urgent,No,Completed,Clear,JPY,FX_TRD_02,Approved,15-05-2025,CLS,Pending,Approved
+CID5716,GBP/USD,HSBC,GBP,USD,360T,Swap,London,PORT2,Murex,HSBC Custody,Special,No,Rejected,Pending Review,USD,FX_FIN_03,Rejected,25-05-2025,CLS,Pending,Approved
+CID5828,AUD/USD,JPMorgan,AUD,USD,Bloomberg,Spot,Mumbai,PORT4,Custom,BNY Mellon,Special,No,Completed,Pending Review,USD,FX_FIN_03,Under Review,12-05-2025,Netting,Settled,Approved
+CID8308,USD/JPY,HSBC,USD,JPY,EBS,Swap,Mumbai,PORT5,Murex,BNY Mellon,Standard,Yes,Completed,Clear,JPY,FX_OPS_01,Approved,23-05-2025,Netting,Pending,Approved
+CID6681,GBP/USD,Deutsche,GBP,USD,360T,Forward,London,PORT2,Custom,State Street,Urgent,No,Completed,Pending Review,USD,FX_OPS_01,Rejected,15-05-2025,CLS,Settled,Approved
+CID9711,AUD/USD,HSBC,AUD,USD,Bloomberg,Forward,Singapore,PORT2,Custom,BNY Mellon,Special,No,Completed,Flagged,USD,FX_OPS_01,Under Review,10-06-2025,Netting,Settled,Approved
+CID7614,USD/INR,Deutsche,USD,INR,Bloomberg,Forward,Mumbai,PORT5,Summit,BNY Mellon,Urgent,Yes,Rejected,Flagged,INR,FX_FIN_03,Under Review,08-06-2025,CLS,Settled,Approved
+CID4574,EUR/USD,Deutsche,EUR,USD,Reuters,Swap,Mumbai,PORT5,Summit,State Street,Standard,Yes,Pending,Flagged,USD,FX_OPS_01,Approved,19-05-2025,Netting,Pending,Approved
+CID8633,EUR/USD,JPMorgan,EUR,USD,360T,Spot,Mumbai,PORT2,Summit,BNY Mellon,Standard,Yes,Pending,Clear,USD,FX_TRD_02,Approved,07-06-2025,CLS,Settled,Approved
+CID6283,USD/JPY,JPMorgan,USD,JPY,360T,Forward,New York,PORT2,Summit,BNY Mellon,Standard,No,Completed,Flagged,JPY,FX_TRD_02,Rejected,29-05-2025,Wire,Pending,Approved
+CID9297,EUR/USD,JPMorgan,EUR,USD,EBS,Spot,London,PORT2,Custom,State Street,Urgent,No,Completed,Clear,USD,FX_TRD_02,Under Review,27-05-2025,Wire,Pending,Approved
+CID6377,AUD/USD,BNP Paribas,AUD,USD,Reuters,Spot,London,PORT3,Murex,State Street,Urgent,Yes,Completed,Clear,USD,FX_TRD_02,Approved,22-05-2025,CLS,Failed,Approved
+CID9819,USD/JPY,Deutsche,USD,JPY,Bloomberg,Forward,New York,PORT1,Calypso,State Street,Urgent,Yes,Completed,Pending Review,JPY,FX_TRD_02,Under Review,02-06-2025,Wire,Settled,Approved
+CID5143,EUR/USD,Citi,EUR,USD,Bloomberg,Swap,New York,PORT3,Custom,State Street,Standard,No,Pending,Pending Review,USD,FX_OPS_01,Rejected,10-06-2025,Wire,Pending,Approved
+CID1449,EUR/USD,HSBC,EUR,USD,360T,Swap,Singapore,PORT2,Summit,State Street,Urgent,Yes,Rejected,Clear,USD,FX_FIN_03,Under Review,30-05-2025,Netting,Failed,Approved
+CID4757,GBP/USD,HSBC,GBP,USD,360T,Spot,Mumbai,PORT2,Custom,JP Morgan,Standard,No,Completed,Flagged,USD,FX_FIN_03,Under Review,25-05-2025,Wire,Failed,Approved
+CID7593,AUD/USD,Citi,AUD,USD,Bloomberg,Swap,Mumbai,PORT3,Custom,JP Morgan,Standard,No,Completed,Pending Review,USD,FX_FIN_03,Rejected,05-06-2025,Wire,Pending,Approved
+CID9458,EUR/USD,Citi,EUR,USD,360T,Forward,London,PORT4,Custom,JP Morgan,Standard,Yes,Pending,Clear,USD,FX_OPS_01,Approved,15-05-2025,Netting,Pending,Approved
+CID5110,USD/JPY,JPMorgan,USD,JPY,360T,Spot,Mumbai,PORT5,Summit,JP Morgan,Standard,No,Completed,Clear,JPY,FX_OPS_01,Rejected,02-06-2025,CLS,Pending,Approved
+CID1461,AUD/USD,Deutsche,AUD,USD,Bloomberg,Forward,Mumbai,PORT5,Murex,HSBC Custody,Standard,Yes,Pending,Clear,USD,FX_FIN_03,Approved,07-06-2025,Netting,Pending,Rejected
+CID9511,USD/CHF,Citi,USD,CHF,Reuters,Spot,Singapore,PORT3,Summit,BNY Mellon,Urgent,No,Pending,Flagged,CHF,FX_TRD_02,Under Review,29-05-2025,CLS,Failed,Rejected
+CID9392,USD/CHF,BNP Paribas,USD,CHF,EBS,Spot,New York,PORT3,Calypso,State Street,Urgent,No,Rejected,Flagged,CHF,FX_OPS_01,Under Review,31-05-2025,CLS,Settled,Rejected
+CID9837,USD/INR,JPMorgan,USD,INR,EBS,Forward,Singapore,PORT3,Calypso,State Street,Standard,Yes,Pending,Clear,INR,FX_TRD_02,Under Review,14-05-2025,Netting,Failed,Rejected
+CID1101,USD/INR,Citi,USD,INR,EBS,Spot,London,PORT1,Calypso,State Street,Standard,Yes,Completed,Pending Review,INR,FX_FIN_03,Rejected,23-05-2025,Wire,Settled,Rejected
+CID3467,AUD/USD,BNP Paribas,AUD,USD,EBS,Spot,London,PORT3,Custom,State Street,Standard,No,Rejected,Flagged,USD,FX_FIN_03,Under Review,20-05-2025,CLS,Settled,Rejected
+CID6699,USD/JPY,Deutsche,USD,JPY,360T,Forward,New York,PORT4,Calypso,HSBC Custody,Urgent,No,Completed,Flagged,JPY,FX_TRD_02,Approved,07-06-2025,CLS,Failed,Rejected
+CID6653,EUR/USD,Citi,EUR,USD,360T,Swap,London,PORT5,Custom,BNY Mellon,Standard,Yes,Pending,Flagged,USD,FX_OPS_01,Rejected,02-06-2025,CLS,Pending,Rejected
+CID5106,USD/INR,JPMorgan,USD,INR,360T,Spot,Mumbai,PORT3,Calypso,State Street,Special,Yes,Rejected,Flagged,INR,FX_TRD_02,Under Review,13-05-2025,Wire,Pending,Rejected
+CID2450,EUR/USD,Deutsche,EUR,USD,EBS,Forward,New York,PORT3,Murex,State Street,Urgent,No,Rejected,Clear,USD,FX_FIN_03,Approved,30-05-2025,Netting,Settled,Rejected
+CID9385,EUR/USD,Deutsche,EUR,USD,Reuters,Forward,Singapore,PORT3,Custom,JP Morgan,Urgent,No,Rejected,Clear,USD,FX_OPS_01,Approved,20-05-2025,Wire,Failed,Rejected
+CID3536,USD/JPY,Citi,USD,JPY,Reuters,Swap,New York,PORT1,Calypso,HSBC Custody,Standard,Yes,Rejected,Pending Review,JPY,FX_FIN_03,Rejected,23-05-2025,CLS,Settled,Rejected
+CID6682,EUR/USD,Deutsche,EUR,USD,EBS,Spot,London,PORT2,Murex,JP Morgan,Urgent,Yes,Completed,Pending Review,USD,FX_OPS_01,Under Review,01-06-2025,Netting,Settled,Rejected
+CID6572,USD/CHF,Deutsche,USD,CHF,EBS,Swap,Singapore,PORT4,Summit,JP Morgan,Urgent,Yes,Completed,Flagged,CHF,FX_FIN_03,Under Review,26-05-2025,Wire,Settled,Rejected
+CID1816,EUR/USD,BNP Paribas,EUR,USD,EBS,Swap,Singapore,PORT4,Murex,State Street,Standard,No,Pending,Flagged,USD,FX_FIN_03,Rejected,25-05-2025,Netting,Failed,Rejected
+CID6675,GBP/USD,JPMorgan,GBP,USD,Reuters,Spot,Singapore,PORT4,Custom,BNY Mellon,Urgent,Yes,Pending,Flagged,USD,FX_OPS_01,Under Review,03-06-2025,Netting,Pending,Rejected
+CID4613,USD/CHF,BNP Paribas,USD,CHF,Reuters,Spot,New York,PORT1,Summit,JP Morgan,Urgent,No,Completed,Pending Review,CHF,FX_FIN_03,Approved,31-05-2025,CLS,Pending,Rejected
+CID8158,AUD/USD,Citi,AUD,USD,Reuters,Swap,Mumbai,PORT5,Murex,State Street,Urgent,Yes,Pending,Clear,USD,FX_FIN_03,Approved,13-05-2025,Wire,Settled,Rejected
+CID3741,GBP/USD,Citi,GBP,USD,EBS,Forward,New York,PORT5,Custom,JP Morgan,Standard,No,Rejected,Clear,USD,FX_FIN_03,Approved,16-05-2025,Netting,Failed,Rejected
+CID5213,AUD/USD,JPMorgan,AUD,USD,Reuters,Spot,New York,PORT2,Custom,HSBC Custody,Standard,No,Completed,Pending Review,USD,FX_FIN_03,Under Review,19-05-2025,Netting,Pending,Rejected
+CID1347,USD/INR,BNP Paribas,USD,INR,Bloomberg,Forward,Singapore,PORT1,Custom,State Street,Standard,Yes,Completed,Pending Review,INR,FX_OPS_01,Under Review,27-05-2025,Wire,Failed,Rejected
+CID9530,USD/INR,HSBC,USD,INR,Reuters,Swap,Mumbai,PORT3,Custom,JP Morgan,Standard,No,Pending,Flagged,INR,FX_FIN_03,Under Review,04-06-2025,Wire,Settled,Rejected
+CID5952,AUD/USD,JPMorgan,AUD,USD,360T,Swap,London,PORT4,Summit,JP Morgan,Urgent,No,Rejected,Flagged,USD,FX_FIN_03,Rejected,31-05-2025,CLS,Settled,Rejected
+CID1409,USD/INR,JPMorgan,USD,INR,Reuters,Spot,London,PORT5,Murex,JP Morgan,Urgent,No,Pending,Pending Review,INR,FX_OPS_01,Under Review,17-05-2025,Wire,Settled,Rejected
+CID2310,AUD/USD,Deutsche,AUD,USD,Bloomberg,Swap,London,PORT5,Murex,BNY Mellon,Special,Yes,Completed,Flagged,USD,FX_OPS_01,Approved,11-06-2025,CLS,Failed,Rejected
+CID6407,USD/CHF,HSBC,USD,CHF,Bloomberg,Swap,Singapore,PORT5,Calypso,BNY Mellon,Special,No,Pending,Pending Review,CHF,FX_FIN_03,Rejected,12-06-2025,CLS,Settled,Rejected
+CID4902,USD/JPY,BNP Paribas,USD,JPY,Bloomberg,Spot,New York,PORT4,Calypso,BNY Mellon,Urgent,Yes,Rejected,Flagged,JPY,FX_OPS_01,Approved,31-05-2025,Netting,Settled,Rejected
+CID7854,USD/CHF,Citi,USD,CHF,Bloomberg,Spot,New York,PORT4,Calypso,BNY Mellon,Standard,No,Completed,Pending Review,CHF,FX_TRD_02,Rejected,05-06-2025,Netting,Pending,Rejected
+CID6433,USD/JPY,Citi,USD,JPY,Bloomberg,Forward,Singapore,PORT1,Custom,State Street,Standard,Yes,Completed,Clear,JPY,FX_TRD_02,Rejected,17-05-2025,CLS,Failed,Rejected
+CID5894,AUD/USD,JPMorgan,AUD,USD,Bloomberg,Spot,London,PORT2,Summit,HSBC Custody,Standard,Yes,Rejected,Pending Review,USD,FX_OPS_01,Approved,23-05-2025,CLS,Pending,Rejected
+CID9332,GBP/USD,BNP Paribas,GBP,USD,EBS,Swap,London,PORT4,Custom,JP Morgan,Standard,Yes,Pending,Pending Review,USD,FX_OPS_01,Approved,22-05-2025,CLS,Settled,Rejected
+CID5744,EUR/USD,BNP Paribas,EUR,USD,EBS,Swap,London,PORT1,Custom,HSBC Custody,Urgent,Yes,Completed,Clear,USD,FX_OPS_01,Approved,17-05-2025,CLS,Failed,Rejected
+CID9155,USD/INR,Citi,USD,INR,360T,Forward,Mumbai,PORT3,Custom,BNY Mellon,Special,No,Pending,Pending Review,INR,FX_TRD_02,Rejected,17-05-2025,Wire,Settled,Rejected
+CID2487,GBP/USD,JPMorgan,GBP,USD,360T,Spot,New York,PORT3,Calypso,JP Morgan,Urgent,No,Rejected,Clear,USD,FX_OPS_01,Under Review,21-05-2025,Netting,Failed,Rejected
+CID7150,GBP/USD,HSBC,GBP,USD,Bloomberg,Spot,London,PORT2,Calypso,JP Morgan,Urgent,Yes,Rejected,Clear,USD,FX_OPS_01,Under Review,25-05-2025,CLS,Settled,Rejected
+CID6795,USD/INR,Deutsche,USD,INR,EBS,Spot,London,PORT5,Murex,HSBC Custody,Standard,Yes,Rejected,Flagged,INR,FX_FIN_03,Approved,01-06-2025,Netting,Failed,Rejected
+CID4016,GBP/USD,JPMorgan,GBP,USD,EBS,Swap,London,PORT2,Summit,HSBC Custody,Urgent,Yes,Completed,Pending Review,USD,FX_OPS_01,Rejected,25-05-2025,CLS,Failed,Rejected
+CID1218,USD/CHF,JPMorgan,USD,CHF,Bloomberg,Spot,New York,PORT4,Calypso,JP Morgan,Urgent,Yes,Pending,Clear,CHF,FX_OPS_01,Approved,22-05-2025,CLS,Failed,Rejected
+CID6949,USD/CHF,HSBC,USD,CHF,Bloomberg,Swap,Mumbai,PORT2,Summit,HSBC Custody,Special,No,Pending,Flagged,CHF,FX_TRD_02,Rejected,31-05-2025,CLS,Failed,Rejected
+CID7583,USD/INR,HSBC,USD,INR,360T,Forward,Mumbai,PORT1,Summit,State Street,Special,Yes,Pending,Pending Review,INR,FX_TRD_02,Under Review,19-05-2025,CLS,Settled,Rejected
+CID4194,USD/JPY,HSBC,USD,JPY,Reuters,Forward,Mumbai,PORT5,Summit,BNY Mellon,Urgent,No,Rejected,Flagged,JPY,FX_TRD_02,Under Review,24-05-2025,Netting,Pending,Rejected
+CID7821,EUR/USD,JPMorgan,EUR,USD,360T,Swap,New York,PORT1,Calypso,BNY Mellon,Special,No,Rejected,Pending Review,USD,FX_OPS_01,Rejected,20-05-2025,CLS,Settled,Rejected
+CID9785,USD/JPY,JPMorgan,USD,JPY,360T,Spot,London,PORT1,Custom,HSBC Custody,Special,No,Rejected,Pending Review,JPY,FX_FIN_03,Under Review,13-05-2025,CLS,Failed,Rejected

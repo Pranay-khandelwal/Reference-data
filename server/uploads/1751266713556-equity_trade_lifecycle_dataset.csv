@@ -1,0 +1,201 @@
+ISIN,Symbol,Client ID,Counterparty,Trading Venue,Currency,Country of Trade,KYC Status,Reference Data Validated,Collateral Required,Margin Type,Margin Status,FX Rate Applied,Pricing Source
+US240362447,TSLA,CID5962,Citibank,IEX,USD,US,Pending,No,33976.06,Variation,Pending,1.0442,Bloomberg
+US511561515,BABA,CID2693,Goldman Sachs,IEX,GBP,UK,Failed,No,33994.13,Variation,Satisfied,0.8749,Bloomberg
+US203344163,ADBE,CID5299,Morgan Stanley,BATS,EUR,DE,Pending,Yes,58139.2,Variation,Pending,0.9645,ICE
+US918886777,NFLX,CID4233,Citibank,NASDAQ,USD,US,Pending,No,19074,Variation,Pending,1.0119,ICE
+US403557069,NFLX,CID7506,Citibank,NASDAQ,GBP,US,Completed,Yes,36312.8,Initial,Failed,1.0459,Bloomberg
+US182199097,GOOGL,CID1598,Citibank,NYSE,USD,US,Failed,Yes,18170.41,Initial,Pending,0.8263,ICE
+US792919549,AMZN,CID8072,Morgan Stanley,NASDAQ,GBP,DE,Completed,Yes,7433.03,Variation,Satisfied,0.9403,ICE
+US951500830,NVDA,CID7079,JPMorgan,BATS,EUR,US,Pending,Yes,48741.01,Variation,Failed,0.9066,Bloomberg
+US374814619,ADBE,CID8079,JPMorgan,NASDAQ,USD,US,Pending,Yes,23098.43,Variation,Satisfied,0.837,Bloomberg
+US736755554,AAPL,CID3450,Citibank,BATS,GBP,UK,Pending,No,33267.5,Variation,Failed,0.9109,Bloomberg
+US463101969,AAPL,CID1825,JPMorgan,NASDAQ,EUR,DE,Failed,Yes,8879.55,Variation,Pending,0.9542,Bloomberg
+US138859211,BABA,CID5493,Citibank,NASDAQ,EUR,DE,Completed,No,58167.18,Variation,Pending,0.9803,ICE
+US311929322,ADBE,CID4114,Morgan Stanley,BATS,GBP,UK,Completed,Yes,18573.91,Variation,Satisfied,1.1727,Reuters
+US861733893,BABA,CID3503,JPMorgan,BATS,GBP,DE,Pending,No,19243.45,Variation,Satisfied,0.9653,Reuters
+US716657966,BABA,CID8748,Citibank,IEX,USD,UK,Pending,Yes,8471.08,Variation,Pending,0.8705,Reuters
+US613556217,AAPL,CID3859,Morgan Stanley,NYSE,GBP,UK,Completed,Yes,18905.27,Initial,Pending,0.8417,Reuters
+US927329389,GOOGL,CID1786,JPMorgan,BATS,USD,UK,Failed,No,26595.9,Variation,Failed,1.02,ICE
+US212110852,NVDA,CID3588,Goldman Sachs,NYSE,GBP,US,Pending,Yes,10152.83,Variation,Failed,1.1275,ICE
+US708344912,AMZN,CID9597,Citibank,IEX,USD,UK,Completed,Yes,30544.59,Variation,Failed,1.1489,Bloomberg
+US377248184,TSLA,CID2179,Citibank,IEX,EUR,US,Pending,No,28381.89,Variation,Pending,0.9124,Bloomberg
+US338997283,AMZN,CID3462,Morgan Stanley,NYSE,USD,US,Completed,Yes,25597.85,Initial,Failed,1.111,Reuters
+US224688107,BABA,CID6403,Morgan Stanley,BATS,EUR,US,Pending,No,10772.36,Initial,Pending,0.843,ICE
+US609387594,GOOGL,CID5173,Citibank,NYSE,USD,US,Completed,Yes,52904.31,Initial,Pending,1.0262,Bloomberg
+US431561710,TSLA,CID1575,Citibank,NYSE,GBP,DE,Failed,Yes,33105.65,Variation,Pending,1.16,ICE
+US725944965,AAPL,CID9500,Goldman Sachs,BATS,GBP,DE,Completed,No,698.08,Initial,Pending,0.9735,ICE
+US726315514,TSLA,CID2619,Citibank,NYSE,GBP,DE,Failed,Yes,44360.6,Initial,Failed,0.8926,ICE
+US544756731,NVDA,CID8898,Citibank,IEX,USD,DE,Failed,Yes,14048.72,Initial,Pending,1.0428,Bloomberg
+US470601172,ADBE,CID8625,Citibank,NYSE,GBP,US,Completed,Yes,21268.45,Variation,Pending,1.0957,Reuters
+US173603600,NVDA,CID2057,Citibank,NASDAQ,GBP,DE,Pending,Yes,19170.78,Initial,Satisfied,0.8733,Bloomberg
+US859204885,AMZN,CID6126,Morgan Stanley,IEX,GBP,DE,Completed,Yes,40261.63,Initial,Satisfied,1.103,Reuters
+US444878690,NVDA,CID4521,JPMorgan,NASDAQ,EUR,UK,Failed,No,9626.16,Initial,Satisfied,0.9969,Reuters
+US511362334,NFLX,CID9833,JPMorgan,NYSE,GBP,US,Completed,No,55890,Variation,Satisfied,0.9801,Reuters
+US623162018,BABA,CID2486,Morgan Stanley,IEX,USD,US,Failed,Yes,26531.43,Variation,Pending,1.0798,ICE
+US316010828,MSFT,CID3303,Citibank,IEX,USD,DE,Failed,No,12827.36,Variation,Failed,0.8174,ICE
+US303681429,NVDA,CID6632,Citibank,BATS,USD,DE,Completed,Yes,3731.08,Initial,Failed,1.0704,Reuters
+US696783507,TSLA,CID8148,Goldman Sachs,BATS,USD,UK,Failed,No,15691.7,Variation,Pending,0.914,Bloomberg
+US845269714,MSFT,CID3448,Citibank,NASDAQ,USD,DE,Pending,Yes,7071.54,Initial,Pending,1.0914,Bloomberg
+US777621649,AAPL,CID1248,Goldman Sachs,BATS,GBP,UK,Failed,No,35236.5,Initial,Satisfied,0.9761,Bloomberg
+US112219917,BABA,CID5796,JPMorgan,IEX,EUR,US,Completed,Yes,9410.65,Variation,Satisfied,1.1207,ICE
+US504829074,BABA,CID4309,Goldman Sachs,BATS,USD,US,Completed,No,3524.54,Variation,Failed,1.0643,Bloomberg
+US187405504,TSLA,CID4536,Morgan Stanley,IEX,USD,DE,Pending,No,10638.7,Initial,Failed,0.83,Bloomberg
+US816630499,TSLA,CID1242,Morgan Stanley,NASDAQ,EUR,DE,Pending,Yes,6808.49,Initial,Failed,0.9987,Reuters
+US674871357,NVDA,CID1487,Citibank,NASDAQ,EUR,US,Completed,Yes,33540.44,Initial,Satisfied,0.8411,Reuters
+US590523117,MSFT,CID7067,JPMorgan,BATS,EUR,UK,Completed,No,19348.92,Initial,Satisfied,0.9434,Reuters
+US971820697,NVDA,CID7892,Goldman Sachs,BATS,EUR,DE,Failed,Yes,4232.92,Variation,Satisfied,0.936,Bloomberg
+US484858411,BABA,CID6879,Morgan Stanley,IEX,GBP,US,Pending,Yes,22636.96,Variation,Pending,0.8244,Reuters
+US311809960,GOOGL,CID4297,JPMorgan,IEX,EUR,US,Completed,Yes,35152.95,Initial,Failed,0.8658,Reuters
+US463417877,AAPL,CID5807,JPMorgan,NASDAQ,GBP,UK,Failed,No,70136.14,Initial,Pending,1.1037,Reuters
+US796664232,NVDA,CID5829,Citibank,NASDAQ,USD,UK,Failed,Yes,14332.34,Variation,Pending,1.1463,ICE
+US762207709,MSFT,CID9833,Citibank,NYSE,USD,UK,Pending,No,67082.03,Variation,Satisfied,0.826,ICE
+US521862236,TSLA,CID6818,Citibank,NASDAQ,USD,DE,Pending,Yes,30778.33,Variation,Pending,0.971,ICE
+US631021383,NFLX,CID8422,Goldman Sachs,NASDAQ,USD,US,Completed,Yes,20507.96,Variation,Pending,1.0327,Bloomberg
+US536979056,META,CID6348,JPMorgan,NASDAQ,EUR,US,Failed,Yes,27439.77,Variation,Failed,0.9609,Bloomberg
+US561125740,GOOGL,CID4789,Morgan Stanley,IEX,GBP,UK,Failed,Yes,27323.78,Variation,Satisfied,0.933,ICE
+US768312799,ADBE,CID8687,Citibank,NASDAQ,EUR,UK,Failed,Yes,7852.99,Variation,Pending,0.8662,Reuters
+US552352193,META,CID3084,Morgan Stanley,NASDAQ,EUR,UK,Failed,No,10139.44,Variation,Failed,0.997,ICE
+US307778674,ADBE,CID9707,Morgan Stanley,NASDAQ,USD,US,Failed,No,13103.99,Variation,Pending,0.8626,Bloomberg
+US438600198,GOOGL,CID6778,Morgan Stanley,NYSE,USD,US,Completed,No,13941.07,Variation,Failed,0.9282,Bloomberg
+US597572676,MSFT,CID5742,Goldman Sachs,NYSE,GBP,DE,Completed,No,7275.56,Variation,Satisfied,1.1415,Bloomberg
+US688143018,AAPL,CID9195,Goldman Sachs,NASDAQ,USD,DE,Failed,Yes,47047.41,Initial,Satisfied,0.8208,Reuters
+US975554360,BABA,CID8459,Morgan Stanley,IEX,GBP,DE,Pending,Yes,36130.94,Variation,Satisfied,1.1371,Bloomberg
+US180502694,META,CID7015,JPMorgan,IEX,EUR,US,Failed,Yes,8572.1,Variation,Satisfied,1.0298,Bloomberg
+US562283653,BABA,CID2807,Citibank,NASDAQ,EUR,UK,Pending,No,13179.88,Initial,Pending,0.9652,Bloomberg
+US758753118,MSFT,CID4183,Goldman Sachs,IEX,EUR,UK,Completed,Yes,29648.18,Variation,Satisfied,0.8137,Reuters
+US566705407,TSLA,CID4381,Morgan Stanley,IEX,GBP,US,Pending,No,8372.05,Initial,Satisfied,1.1248,ICE
+US477294160,ADBE,CID5063,JPMorgan,BATS,EUR,DE,Pending,No,14853.32,Initial,Failed,0.8546,Bloomberg
+US128005684,BABA,CID4537,Citibank,NYSE,EUR,US,Pending,Yes,11098.39,Variation,Pending,0.9864,Bloomberg
+US504953604,AMZN,CID5248,JPMorgan,BATS,EUR,US,Pending,No,21083.52,Initial,Pending,0.9022,Bloomberg
+US894708418,TSLA,CID4999,Goldman Sachs,IEX,USD,DE,Pending,No,17600.02,Variation,Satisfied,1.0209,Bloomberg
+US957674850,MSFT,CID4942,JPMorgan,NASDAQ,USD,US,Failed,No,12159.49,Variation,Satisfied,0.8892,Reuters
+US299379488,MSFT,CID8418,Goldman Sachs,IEX,USD,DE,Pending,Yes,4828.36,Variation,Satisfied,0.8204,Reuters
+US386930876,AAPL,CID9866,Citibank,IEX,GBP,US,Completed,No,16132.07,Initial,Satisfied,0.8467,Bloomberg
+US486344894,GOOGL,CID1942,Morgan Stanley,BATS,EUR,UK,Pending,Yes,16830.11,Initial,Failed,0.889,ICE
+US816600690,BABA,CID8668,Goldman Sachs,NYSE,USD,DE,Failed,Yes,44699.16,Initial,Failed,0.8591,Bloomberg
+US407776453,NFLX,CID7322,Morgan Stanley,BATS,GBP,US,Completed,No,23271.35,Variation,Satisfied,1.1921,Bloomberg
+US985881696,AAPL,CID8651,JPMorgan,NYSE,USD,DE,Pending,Yes,28653.7,Initial,Satisfied,1.1314,ICE
+US101245731,META,CID9471,Goldman Sachs,NYSE,EUR,UK,Failed,No,39844.32,Variation,Satisfied,0.918,Bloomberg
+US380495736,MSFT,CID7729,JPMorgan,NYSE,GBP,DE,Pending,No,14008.87,Initial,Satisfied,0.9046,Bloomberg
+US661594578,GOOGL,CID4796,JPMorgan,NASDAQ,GBP,US,Completed,Yes,8893.11,Initial,Pending,1.0693,ICE
+US653564485,NVDA,CID5309,Goldman Sachs,BATS,GBP,US,Failed,Yes,3011.59,Variation,Failed,1.1663,ICE
+US557043454,MSFT,CID3938,JPMorgan,NASDAQ,GBP,DE,Failed,No,2356.13,Initial,Satisfied,0.9531,ICE
+US778394722,META,CID6006,JPMorgan,NYSE,USD,UK,Failed,Yes,5187.28,Variation,Satisfied,0.8896,Bloomberg
+US810077248,ADBE,CID7938,Goldman Sachs,BATS,EUR,UK,Pending,Yes,17763.76,Initial,Failed,0.9603,ICE
+US705231901,AAPL,CID6307,JPMorgan,BATS,GBP,DE,Pending,Yes,2548.51,Variation,Pending,0.9516,ICE
+US242234860,BABA,CID6882,JPMorgan,NYSE,GBP,US,Pending,No,28948.07,Variation,Failed,0.9234,Reuters
+US503822330,NFLX,CID2269,JPMorgan,BATS,EUR,UK,Pending,No,51940.94,Initial,Satisfied,0.8401,Reuters
+US815765397,AMZN,CID4080,Morgan Stanley,NYSE,GBP,DE,Pending,Yes,48163.34,Variation,Satisfied,0.8444,Bloomberg
+US697627951,AMZN,CID6831,Morgan Stanley,NASDAQ,EUR,DE,Failed,Yes,22036.88,Initial,Satisfied,1.0804,Reuters
+US381485465,META,CID8887,Citibank,BATS,GBP,US,Failed,No,43413.24,Variation,Failed,0.9174,Reuters
+US737470851,BABA,CID7019,Goldman Sachs,NYSE,USD,DE,Pending,Yes,11592.56,Variation,Failed,1.1217,ICE
+US374761770,NFLX,CID1597,Goldman Sachs,NASDAQ,EUR,DE,Completed,No,3910.3,Initial,Failed,1.0092,Reuters
+US913440508,ADBE,CID1821,Goldman Sachs,NASDAQ,EUR,UK,Completed,Yes,21398.15,Initial,Satisfied,0.8926,ICE
+US170103426,AAPL,CID4372,Goldman Sachs,NASDAQ,GBP,DE,Pending,Yes,41822.07,Variation,Failed,0.8585,ICE
+US202009479,AMZN,CID9337,Goldman Sachs,NYSE,USD,UK,Completed,No,3874.23,Initial,Failed,0.9515,Reuters
+US690396527,BABA,CID1583,Citibank,IEX,EUR,DE,Completed,No,34029.8,Variation,Failed,0.8151,Bloomberg
+US594201452,ADBE,CID3007,Goldman Sachs,BATS,USD,UK,Pending,No,6487.36,Initial,Failed,0.8127,ICE
+US629710937,NFLX,CID6559,Morgan Stanley,BATS,USD,DE,Failed,Yes,7204.92,Initial,Failed,0.8038,Bloomberg
+US497135463,AAPL,CID9878,JPMorgan,NYSE,EUR,UK,Pending,Yes,33756.17,Initial,Pending,1.0663,Bloomberg
+US449602380,ADBE,CID4865,Citibank,NYSE,EUR,DE,Completed,Yes,3895.84,Initial,Satisfied,1.0853,ICE
+US620657212,NVDA,CID2481,Morgan Stanley,NASDAQ,USD,DE,Pending,No,4617.12,Variation,Failed,1.163,Bloomberg
+US370901992,AMZN,CID4116,JPMorgan,BATS,USD,UK,Pending,No,22928.27,Initial,Pending,1.1439,ICE
+US938802605,ADBE,CID1055,Morgan Stanley,IEX,GBP,US,Completed,No,30429.6,Initial,Failed,1.0555,Bloomberg
+US986172895,BABA,CID9715,Morgan Stanley,BATS,EUR,DE,Pending,Yes,31879.86,Variation,Failed,1.1734,ICE
+US817729491,NVDA,CID9246,Morgan Stanley,BATS,EUR,US,Completed,Yes,6911.64,Initial,Failed,0.9673,Reuters
+US128924867,GOOGL,CID6045,Morgan Stanley,IEX,USD,US,Pending,No,9375.91,Initial,Pending,1.0217,ICE
+US908300146,GOOGL,CID8160,JPMorgan,NYSE,USD,US,Pending,No,9446.96,Variation,Satisfied,0.9474,Bloomberg
+US423350887,TSLA,CID2723,Morgan Stanley,NYSE,EUR,DE,Failed,Yes,1647.87,Initial,Pending,0.8704,Reuters
+US321741526,NVDA,CID2116,JPMorgan,NYSE,EUR,DE,Failed,Yes,16192.55,Variation,Pending,0.9357,Reuters
+US644852751,GOOGL,CID6269,Morgan Stanley,IEX,GBP,DE,Pending,Yes,23282.88,Initial,Failed,1.1508,Reuters
+US114280271,MSFT,CID9666,JPMorgan,BATS,GBP,UK,Completed,No,18394.17,Variation,Satisfied,1.0377,Reuters
+US371218485,ADBE,CID7178,Citibank,NYSE,EUR,US,Failed,Yes,12668.99,Initial,Pending,0.8124,Bloomberg
+US985144661,BABA,CID5064,Goldman Sachs,IEX,GBP,DE,Completed,Yes,19951.49,Initial,Satisfied,1.0974,Reuters
+US165773891,TSLA,CID1186,Citibank,NYSE,USD,UK,Completed,Yes,25370.8,Variation,Failed,1.0228,Reuters
+US326433101,AAPL,CID8497,Citibank,NYSE,GBP,US,Completed,Yes,6132.66,Initial,Pending,0.8808,Reuters
+US857067533,BABA,CID8163,Goldman Sachs,NYSE,USD,UK,Failed,No,33434.16,Variation,Pending,0.949,Reuters
+US598667764,NVDA,CID6707,JPMorgan,IEX,EUR,US,Pending,No,5626.21,Initial,Failed,0.874,ICE
+US316288678,GOOGL,CID5457,JPMorgan,NYSE,USD,DE,Pending,Yes,3868.07,Initial,Satisfied,0.9578,ICE
+US517118141,AAPL,CID3605,Goldman Sachs,BATS,EUR,UK,Completed,No,65179.19,Initial,Pending,0.824,ICE
+US913848569,ADBE,CID9648,Goldman Sachs,NYSE,USD,US,Failed,Yes,8540.63,Initial,Failed,1.1288,ICE
+US331487828,META,CID8424,Morgan Stanley,NYSE,EUR,UK,Failed,No,1576.68,Initial,Satisfied,1.0723,Reuters
+US946031380,GOOGL,CID2797,Morgan Stanley,NASDAQ,USD,US,Failed,Yes,5194.68,Variation,Satisfied,1.1693,Reuters
+US755688998,MSFT,CID5057,Goldman Sachs,IEX,GBP,UK,Pending,Yes,48680.46,Variation,Satisfied,1.0273,Reuters
+US654890535,AAPL,CID9624,JPMorgan,NASDAQ,GBP,US,Completed,No,19066.98,Initial,Satisfied,0.9475,ICE
+US484725127,AAPL,CID4378,Citibank,NASDAQ,GBP,UK,Pending,No,23544.53,Initial,Pending,1.0197,Bloomberg
+US838165259,BABA,CID7338,Citibank,NASDAQ,USD,UK,Pending,No,3298.98,Initial,Failed,1.1197,Reuters
+US672382904,NVDA,CID4416,Goldman Sachs,NYSE,EUR,US,Pending,No,3061.63,Variation,Failed,1.0065,ICE
+US568231562,TSLA,CID5624,Morgan Stanley,NYSE,USD,UK,Failed,No,29239.42,Variation,Satisfied,0.9613,Reuters
+US954087449,NVDA,CID8346,Morgan Stanley,IEX,EUR,UK,Failed,Yes,5074.23,Variation,Satisfied,0.9534,ICE
+US209334640,AMZN,CID1558,Morgan Stanley,BATS,EUR,US,Completed,Yes,8337.59,Initial,Satisfied,0.9801,Reuters
+US907221758,MSFT,CID5934,Morgan Stanley,NYSE,GBP,DE,Failed,No,4438.89,Variation,Satisfied,1.0602,Bloomberg
+US165267967,ADBE,CID5730,Citibank,NYSE,GBP,US,Completed,Yes,18419.78,Variation,Pending,0.9484,Bloomberg
+US724779138,NFLX,CID1734,Citibank,IEX,EUR,UK,Failed,No,57550.5,Initial,Pending,0.8433,Reuters
+US290976322,AAPL,CID2349,Goldman Sachs,NASDAQ,EUR,UK,Pending,Yes,13306.23,Variation,Pending,0.8139,ICE
+US179229680,TSLA,CID7901,Morgan Stanley,NASDAQ,EUR,US,Completed,No,48988.14,Initial,Pending,1.0248,ICE
+US359561529,NVDA,CID7694,Morgan Stanley,BATS,GBP,DE,Failed,Yes,3036.66,Initial,Pending,1.1548,ICE
+US758662104,NVDA,CID5490,Citibank,NYSE,EUR,DE,Failed,No,36565.75,Variation,Failed,0.969,Bloomberg
+US865257652,META,CID6327,Morgan Stanley,BATS,EUR,US,Completed,Yes,4259.38,Initial,Satisfied,0.8568,Reuters
+US346088215,NVDA,CID5055,Morgan Stanley,BATS,GBP,US,Failed,No,29656.94,Initial,Pending,0.8699,ICE
+US178720192,GOOGL,CID9212,Goldman Sachs,NASDAQ,USD,US,Pending,Yes,549.15,Variation,Satisfied,0.966,Bloomberg
+US504363090,TSLA,CID5716,Citibank,BATS,EUR,DE,Failed,Yes,8569.31,Initial,Failed,1.0014,Reuters
+US718014468,AAPL,CID5828,Morgan Stanley,NASDAQ,USD,UK,Completed,No,12151.46,Initial,Failed,0.9783,ICE
+US406775814,AAPL,CID8308,Morgan Stanley,BATS,USD,UK,Completed,Yes,33107.51,Initial,Pending,0.8544,ICE
+US272145266,MSFT,CID6681,Morgan Stanley,NYSE,USD,DE,Pending,No,2897.34,Variation,Satisfied,0.8096,ICE
+US287699055,META,CID9711,Goldman Sachs,NYSE,USD,UK,Failed,Yes,42774.89,Initial,Satisfied,0.8886,Reuters
+US224908943,BABA,CID7614,Goldman Sachs,BATS,USD,UK,Completed,Yes,52651.65,Variation,Pending,1.0441,ICE
+US400636821,MSFT,CID4574,JPMorgan,BATS,EUR,UK,Failed,Yes,29790.98,Initial,Pending,0.9845,ICE
+US244143429,AAPL,CID8633,Citibank,IEX,GBP,US,Failed,No,18347.24,Initial,Satisfied,0.9205,Bloomberg
+US525451313,BABA,CID6283,JPMorgan,BATS,EUR,US,Completed,No,6569.63,Initial,Pending,1.1554,Reuters
+US221996257,NVDA,CID9297,Morgan Stanley,IEX,USD,US,Failed,Yes,4020.46,Initial,Satisfied,1.1146,ICE
+US200366430,NFLX,CID6377,Morgan Stanley,NASDAQ,EUR,DE,Completed,No,2613.38,Initial,Satisfied,0.9601,Reuters
+US463476242,AAPL,CID9819,Morgan Stanley,IEX,GBP,US,Completed,Yes,14540.61,Variation,Pending,0.832,Reuters
+US816001450,AAPL,CID5143,Goldman Sachs,IEX,EUR,US,Pending,Yes,11223.91,Initial,Failed,1.1129,Bloomberg
+US922971003,TSLA,CID1449,Morgan Stanley,NASDAQ,EUR,DE,Pending,No,16414.58,Initial,Failed,0.9074,Bloomberg
+US258309381,ADBE,CID4757,Citibank,BATS,GBP,US,Pending,Yes,32516.12,Variation,Pending,1.1209,Bloomberg
+US872772438,GOOGL,CID7593,Morgan Stanley,NYSE,USD,UK,Pending,No,11172.73,Initial,Failed,1.1155,Reuters
+US380365808,BABA,CID9458,Morgan Stanley,NYSE,GBP,UK,Completed,No,21443.76,Initial,Satisfied,0.8983,Bloomberg
+US331515580,AMZN,CID5110,Morgan Stanley,BATS,EUR,DE,Pending,No,3222.33,Variation,Failed,0.9618,Bloomberg
+US815607195,NFLX,CID1461,JPMorgan,NASDAQ,EUR,US,Completed,No,17531.64,Initial,Failed,0.8598,ICE
+US840181830,TSLA,CID9511,Morgan Stanley,NYSE,USD,DE,Failed,No,30177.24,Initial,Failed,0.9947,Reuters
+US239128843,TSLA,CID9392,Goldman Sachs,IEX,GBP,US,Completed,No,3029.32,Initial,Failed,0.8765,Bloomberg
+US429169637,TSLA,CID9837,Morgan Stanley,NASDAQ,EUR,UK,Failed,Yes,1382.05,Variation,Failed,1.1999,Bloomberg
+US832593540,NVDA,CID1101,Citibank,NASDAQ,EUR,DE,Pending,No,29213.62,Variation,Satisfied,0.8945,ICE
+US221496442,NVDA,CID3467,Morgan Stanley,IEX,EUR,US,Pending,Yes,12339.55,Variation,Pending,0.9948,Bloomberg
+US473404630,NFLX,CID6699,Morgan Stanley,BATS,USD,DE,Pending,Yes,7758.26,Initial,Satisfied,0.8964,Bloomberg
+US152934355,ADBE,CID6653,JPMorgan,NASDAQ,USD,US,Completed,No,10374.16,Variation,Failed,1.1608,Bloomberg
+US692574842,ADBE,CID5106,Morgan Stanley,NASDAQ,GBP,US,Pending,Yes,32229.11,Variation,Satisfied,1.1798,Reuters
+US751609554,BABA,CID2450,Goldman Sachs,NASDAQ,EUR,DE,Completed,No,7138.06,Variation,Satisfied,0.9643,Reuters
+US421725107,AMZN,CID9385,Goldman Sachs,IEX,GBP,UK,Pending,No,19894.74,Initial,Failed,0.8731,ICE
+US474152465,ADBE,CID3536,Morgan Stanley,IEX,GBP,DE,Pending,Yes,60074.85,Initial,Failed,1.0481,Bloomberg
+US117728129,ADBE,CID6682,Goldman Sachs,IEX,EUR,UK,Failed,Yes,55578.24,Variation,Failed,0.8549,Bloomberg
+US351154801,AMZN,CID6572,Goldman Sachs,NYSE,USD,US,Completed,Yes,42198.7,Initial,Satisfied,0.9317,Bloomberg
+US782184971,NVDA,CID1816,Morgan Stanley,BATS,EUR,UK,Pending,Yes,5311.63,Variation,Failed,0.8679,ICE
+US326988196,META,CID6675,Morgan Stanley,NASDAQ,EUR,UK,Pending,Yes,35031.99,Initial,Pending,0.8307,Bloomberg
+US495114423,META,CID4613,Morgan Stanley,IEX,EUR,DE,Pending,No,34152.98,Variation,Pending,0.8516,Reuters
+US640029417,NFLX,CID8158,Citibank,NASDAQ,USD,DE,Completed,No,37839.42,Variation,Pending,0.8252,Bloomberg
+US168111475,AAPL,CID3741,Morgan Stanley,NASDAQ,USD,DE,Completed,No,15849.19,Initial,Failed,1.1691,Reuters
+US327952717,AAPL,CID5213,Morgan Stanley,BATS,USD,DE,Completed,Yes,33516.52,Initial,Failed,1.1906,Reuters
+US610716003,ADBE,CID1347,JPMorgan,IEX,EUR,DE,Failed,No,14675.68,Variation,Failed,0.993,Reuters
+US588589324,GOOGL,CID9530,Citibank,NASDAQ,GBP,UK,Failed,No,1615.81,Initial,Pending,1.0087,Reuters
+US501620010,TSLA,CID5952,Citibank,BATS,USD,UK,Pending,Yes,59976.99,Initial,Satisfied,1.1602,ICE
+US694526427,META,CID1409,Citibank,NASDAQ,USD,US,Failed,Yes,20956.25,Variation,Failed,1.1108,Reuters
+US175968059,ADBE,CID2310,Morgan Stanley,NYSE,USD,US,Pending,No,32426.89,Initial,Failed,0.914,ICE
+US770637515,BABA,CID6407,JPMorgan,NYSE,USD,DE,Failed,No,13927.51,Initial,Pending,0.9922,Bloomberg
+US938699428,NFLX,CID4902,Morgan Stanley,IEX,USD,UK,Pending,No,17891.26,Variation,Failed,1.1393,Reuters
+US583013701,META,CID7854,Citibank,IEX,GBP,DE,Failed,Yes,25142.18,Initial,Satisfied,0.8812,Bloomberg
+US464517856,GOOGL,CID6433,Morgan Stanley,NYSE,GBP,US,Pending,No,2599.61,Variation,Pending,1.0378,Reuters
+US383384026,GOOGL,CID5894,Citibank,NYSE,USD,DE,Pending,No,66538.53,Initial,Pending,0.9376,Bloomberg
+US383601522,AMZN,CID9332,Citibank,NYSE,GBP,UK,Pending,No,30870.73,Initial,Failed,1.0152,Bloomberg
+US766912338,TSLA,CID5744,Citibank,BATS,GBP,UK,Completed,Yes,16842.46,Initial,Pending,1.0735,ICE
+US718612067,NVDA,CID9155,Morgan Stanley,BATS,EUR,DE,Completed,No,13351.98,Initial,Failed,1.1454,Reuters
+US235374676,NFLX,CID2487,Citibank,NASDAQ,GBP,US,Failed,No,2082.95,Variation,Failed,1.1355,ICE
+US710788171,META,CID7150,JPMorgan,NYSE,GBP,DE,Pending,No,15636.88,Initial,Satisfied,0.9291,ICE
+US575677747,MSFT,CID6795,Citibank,NYSE,USD,US,Pending,Yes,16315.68,Initial,Pending,0.813,Reuters
+US929086540,META,CID4016,Citibank,IEX,GBP,UK,Pending,Yes,7752.75,Initial,Pending,0.9715,Bloomberg
+US991344502,TSLA,CID1218,Citibank,NYSE,EUR,DE,Completed,Yes,35407.4,Variation,Satisfied,0.8812,Bloomberg
+US912788835,AAPL,CID6949,Citibank,IEX,USD,DE,Failed,No,2796.2,Variation,Failed,0.9097,Reuters
+US109512467,NVDA,CID7583,JPMorgan,NASDAQ,GBP,DE,Completed,Yes,12570.71,Variation,Satisfied,0.9951,Reuters
+US538611928,AAPL,CID4194,Goldman Sachs,BATS,EUR,DE,Completed,Yes,5157.1,Initial,Failed,1.0879,Bloomberg
+US288964237,ADBE,CID7821,Citibank,NASDAQ,GBP,DE,Failed,Yes,53843.89,Variation,Failed,1.1702,Bloomberg
+US465065481,NFLX,CID9785,Citibank,NYSE,USD,US,Failed,No,49148.39,Variation,Satisfied,0.9602,Bloomberg

@@ -1,0 +1,4 @@
+ISIN,instrumentName,assetClass,symbol,clientId,counterparty,tradingVenue,currency,countryOfTrade,kycStatus,referenceDataValidated,collateralRequired,marginType,marginStatus,pricingSource
+US0378331005,Apple Inc,Equity,AAPL,CLIENT001,Goldman Sachs,NASDAQ,USD,US,Approved,true,true,Initial,Active,Bloomberg
+US88160R1014,Tesla Inc,Equity,TSLA,CLIENT002,Morgan Stanley,NASDAQ,USD,US,Approved,true,true,Initial,Active,Bloomberg
+US02079K3059,Alphabet Inc,Equity,GOOGL,CLIENT003,JPMorgan Chase,NASDAQ,USD,US,Pending,false,true,Initial,Active,Refinitiv 

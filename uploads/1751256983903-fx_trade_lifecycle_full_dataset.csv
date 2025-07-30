@@ -1,0 +1,201 @@
+Currency Pair,Counterparty,Base Currency,Term Currency,Execution Venue,Product Type,Booking Location,Portfolio,Trade Source System,Custodian,Settlement Instructions,Netting Eligibility,KYC Status,Sanctions Screening,Settlement Currency,Cost Center,Expense Approval Status
+EUR/USD,HSBC,EUR,USD,Bloomberg,Forward,New York,PORT3,Murex,BNY Mellon,Special,Yes,Pending,Pending Review,USD,FX_FIN_03,Rejected
+USD/CHF,Citi,USD,CHF,EBS,Spot,Singapore,PORT3,Custom,BNY Mellon,Standard,No,Complete,Clear,CHF,FX_OPS_01,Under Review
+USD/JPY,Citi,USD,JPY,360T,Forward,Singapore,PORT1,Murex,JP Morgan,Urgent,Yes,Pending,Clear,JPY,FX_FIN_03,Under Review
+USD/JPY,JPMorgan,USD,JPY,Bloomberg,Spot,Singapore,PORT1,Murex,HSBC Custody,Standard,No,Pending,Flagged,JPY,FX_OPS_01,Under Review
+USD/INR,HSBC,USD,INR,EBS,Swap,New York,PORT2,Murex,BNY Mellon,Special,Yes,Incomplete,Flagged,INR,FX_FIN_03,Under Review
+EUR/USD,Citi,EUR,USD,Reuters,Spot,London,PORT5,Murex,HSBC Custody,Special,No,Incomplete,Clear,USD,FX_FIN_03,Under Review
+USD/INR,HSBC,USD,INR,360T,Forward,New York,PORT5,Custom,BNY Mellon,Special,No,Complete,Flagged,INR,FX_TRD_02,Rejected
+USD/CHF,Citi,USD,CHF,Reuters,Spot,Mumbai,PORT4,Custom,JP Morgan,Special,No,Complete,Clear,CHF,FX_OPS_01,Approved
+GBP/USD,Deutsche,GBP,USD,360T,Swap,London,PORT4,Custom,State Street,Special,No,Complete,Clear,USD,FX_FIN_03,Under Review
+USD/CHF,BNP Paribas,USD,CHF,Reuters,Swap,London,PORT1,Summit,State Street,Urgent,No,Complete,Pending Review,CHF,FX_TRD_02,Rejected
+USD/INR,Deutsche,USD,INR,Bloomberg,Spot,Singapore,PORT4,Calypso,State Street,Special,No,Complete,Clear,INR,FX_FIN_03,Under Review
+USD/INR,Citi,USD,INR,EBS,Forward,Mumbai,PORT4,Custom,JP Morgan,Standard,No,Complete,Clear,INR,FX_FIN_03,Rejected
+AUD/USD,Citi,AUD,USD,Bloomberg,Spot,New York,PORT5,Custom,BNY Mellon,Special,Yes,Complete,Flagged,USD,FX_FIN_03,Approved
+GBP/USD,Deutsche,GBP,USD,360T,Forward,London,PORT2,Murex,State Street,Special,Yes,Incomplete,Clear,USD,FX_FIN_03,Rejected
+AUD/USD,Citi,AUD,USD,Bloomberg,Spot,Singapore,PORT1,Custom,State Street,Urgent,No,Complete,Clear,USD,FX_OPS_01,Approved
+USD/INR,JPMorgan,USD,INR,Bloomberg,Forward,Mumbai,PORT2,Murex,HSBC Custody,Urgent,No,Pending,Pending Review,INR,FX_FIN_03,Rejected
+USD/CHF,BNP Paribas,USD,CHF,EBS,Spot,New York,PORT3,Custom,State Street,Urgent,No,Incomplete,Clear,CHF,FX_TRD_02,Under Review
+USD/INR,BNP Paribas,USD,INR,Reuters,Swap,London,PORT4,Murex,State Street,Special,No,Incomplete,Clear,INR,FX_TRD_02,Rejected
+USD/JPY,Citi,USD,JPY,Bloomberg,Swap,Mumbai,PORT3,Custom,State Street,Standard,Yes,Incomplete,Pending Review,JPY,FX_OPS_01,Under Review
+GBP/USD,JPMorgan,GBP,USD,Reuters,Swap,Singapore,PORT3,Custom,BNY Mellon,Urgent,No,Incomplete,Flagged,USD,FX_OPS_01,Rejected
+USD/CHF,Deutsche,USD,CHF,Bloomberg,Forward,Singapore,PORT3,Summit,HSBC Custody,Urgent,No,Complete,Clear,CHF,FX_FIN_03,Approved
+GBP/USD,Deutsche,GBP,USD,EBS,Spot,London,PORT3,Calypso,State Street,Standard,No,Pending,Flagged,USD,FX_TRD_02,Approved
+AUD/USD,JPMorgan,AUD,USD,EBS,Swap,Mumbai,PORT5,Calypso,JP Morgan,Special,Yes,Incomplete,Pending Review,USD,FX_TRD_02,Approved
+USD/JPY,JPMorgan,USD,JPY,Bloomberg,Spot,Mumbai,PORT5,Calypso,BNY Mellon,Urgent,No,Complete,Pending Review,JPY,FX_TRD_02,Rejected
+GBP/USD,Citi,GBP,USD,EBS,Forward,Singapore,PORT4,Custom,State Street,Special,No,Incomplete,Flagged,USD,FX_FIN_03,Rejected
+AUD/USD,BNP Paribas,AUD,USD,360T,Forward,New York,PORT3,Summit,JP Morgan,Special,No,Complete,Pending Review,USD,FX_OPS_01,Under Review
+EUR/USD,Deutsche,EUR,USD,EBS,Spot,London,PORT5,Summit,JP Morgan,Urgent,Yes,Complete,Pending Review,USD,FX_OPS_01,Under Review
+EUR/USD,Citi,EUR,USD,EBS,Forward,London,PORT1,Summit,BNY Mellon,Special,No,Incomplete,Clear,USD,FX_TRD_02,Rejected
+USD/CHF,HSBC,USD,CHF,Reuters,Swap,London,PORT4,Summit,BNY Mellon,Urgent,No,Incomplete,Flagged,CHF,FX_FIN_03,Under Review
+AUD/USD,JPMorgan,AUD,USD,Bloomberg,Forward,Mumbai,PORT1,Summit,State Street,Standard,Yes,Pending,Flagged,USD,FX_OPS_01,Under Review
+USD/INR,Citi,USD,INR,EBS,Forward,New York,PORT1,Murex,JP Morgan,Urgent,Yes,Pending,Clear,INR,FX_OPS_01,Approved
+USD/CHF,Citi,USD,CHF,360T,Spot,London,PORT3,Calypso,HSBC Custody,Standard,Yes,Complete,Flagged,CHF,FX_TRD_02,Under Review
+AUD/USD,Deutsche,AUD,USD,Reuters,Forward,Singapore,PORT5,Murex,JP Morgan,Special,No,Incomplete,Clear,USD,FX_OPS_01,Under Review
+USD/JPY,Deutsche,USD,JPY,EBS,Spot,Mumbai,PORT4,Calypso,HSBC Custody,Special,Yes,Pending,Clear,JPY,FX_TRD_02,Approved
+USD/CHF,HSBC,USD,CHF,Bloomberg,Swap,London,PORT4,Summit,HSBC Custody,Special,Yes,Incomplete,Pending Review,CHF,FX_FIN_03,Rejected
+USD/JPY,JPMorgan,USD,JPY,EBS,Swap,New York,PORT3,Custom,JP Morgan,Standard,Yes,Complete,Clear,JPY,FX_TRD_02,Approved
+AUD/USD,Citi,AUD,USD,360T,Swap,Singapore,PORT5,Murex,JP Morgan,Standard,No,Pending,Pending Review,USD,FX_FIN_03,Rejected
+USD/CHF,Deutsche,USD,CHF,Reuters,Forward,New York,PORT2,Custom,BNY Mellon,Standard,Yes,Pending,Pending Review,CHF,FX_FIN_03,Approved
+GBP/USD,BNP Paribas,GBP,USD,EBS,Swap,London,PORT2,Calypso,JP Morgan,Urgent,Yes,Pending,Flagged,USD,FX_TRD_02,Rejected
+USD/INR,Citi,USD,INR,EBS,Swap,Singapore,PORT2,Calypso,State Street,Urgent,No,Pending,Clear,INR,FX_FIN_03,Rejected
+GBP/USD,HSBC,GBP,USD,Reuters,Swap,Mumbai,PORT1,Calypso,State Street,Standard,Yes,Incomplete,Clear,USD,FX_TRD_02,Rejected
+USD/JPY,HSBC,USD,JPY,Bloomberg,Swap,London,PORT4,Murex,BNY Mellon,Urgent,Yes,Incomplete,Pending Review,JPY,FX_TRD_02,Rejected
+AUD/USD,Citi,AUD,USD,360T,Swap,New York,PORT1,Summit,JP Morgan,Special,No,Incomplete,Flagged,USD,FX_FIN_03,Under Review
+USD/CHF,JPMorgan,USD,CHF,360T,Spot,Mumbai,PORT3,Summit,State Street,Special,Yes,Complete,Clear,CHF,FX_TRD_02,Rejected
+USD/CHF,JPMorgan,USD,CHF,Bloomberg,Forward,New York,PORT4,Murex,State Street,Special,No,Complete,Flagged,CHF,FX_TRD_02,Approved
+USD/CHF,Citi,USD,CHF,EBS,Forward,London,PORT3,Custom,JP Morgan,Urgent,Yes,Pending,Flagged,CHF,FX_FIN_03,Under Review
+USD/INR,Citi,USD,INR,EBS,Spot,Singapore,PORT5,Summit,State Street,Standard,Yes,Pending,Pending Review,INR,FX_TRD_02,Approved
+EUR/USD,Deutsche,EUR,USD,Reuters,Spot,Singapore,PORT4,Calypso,JP Morgan,Urgent,No,Incomplete,Clear,USD,FX_FIN_03,Rejected
+EUR/USD,Citi,EUR,USD,EBS,Forward,Mumbai,PORT1,Summit,JP Morgan,Urgent,No,Incomplete,Pending Review,USD,FX_FIN_03,Approved
+USD/CHF,HSBC,USD,CHF,EBS,Forward,New York,PORT5,Custom,State Street,Urgent,No,Incomplete,Flagged,CHF,FX_FIN_03,Rejected
+USD/CHF,Citi,USD,CHF,EBS,Spot,London,PORT3,Murex,State Street,Standard,No,Complete,Clear,CHF,FX_FIN_03,Rejected
+GBP/USD,JPMorgan,GBP,USD,Reuters,Spot,London,PORT4,Summit,State Street,Special,No,Complete,Clear,USD,FX_TRD_02,Rejected
+EUR/USD,JPMorgan,EUR,USD,EBS,Spot,Mumbai,PORT5,Summit,JP Morgan,Standard,No,Incomplete,Clear,USD,FX_TRD_02,Rejected
+GBP/USD,JPMorgan,GBP,USD,EBS,Forward,Mumbai,PORT1,Murex,State Street,Urgent,No,Pending,Pending Review,USD,FX_TRD_02,Under Review
+GBP/USD,Citi,GBP,USD,360T,Swap,New York,PORT3,Custom,BNY Mellon,Special,No,Complete,Flagged,USD,FX_FIN_03,Under Review
+EUR/USD,Citi,EUR,USD,EBS,Swap,Singapore,PORT5,Summit,JP Morgan,Urgent,No,Incomplete,Flagged,USD,FX_TRD_02,Rejected
+EUR/USD,Deutsche,EUR,USD,Bloomberg,Swap,London,PORT4,Custom,State Street,Urgent,No,Complete,Pending Review,USD,FX_TRD_02,Approved
+USD/INR,Citi,USD,INR,EBS,Spot,London,PORT4,Calypso,BNY Mellon,Special,Yes,Incomplete,Pending Review,INR,FX_TRD_02,Rejected
+USD/INR,Citi,USD,INR,Reuters,Swap,Singapore,PORT4,Calypso,BNY Mellon,Special,Yes,Pending,Clear,INR,FX_OPS_01,Rejected
+USD/INR,Deutsche,USD,INR,EBS,Spot,London,PORT2,Summit,JP Morgan,Standard,Yes,Incomplete,Pending Review,INR,FX_OPS_01,Rejected
+GBP/USD,Deutsche,GBP,USD,Reuters,Forward,London,PORT2,Murex,BNY Mellon,Special,No,Incomplete,Clear,USD,FX_TRD_02,Approved
+USD/CHF,BNP Paribas,USD,CHF,Bloomberg,Swap,New York,PORT5,Murex,JP Morgan,Special,Yes,Pending,Pending Review,CHF,FX_TRD_02,Approved
+AUD/USD,Deutsche,AUD,USD,Bloomberg,Forward,London,PORT2,Summit,HSBC Custody,Standard,No,Complete,Clear,USD,FX_OPS_01,Under Review
+AUD/USD,BNP Paribas,AUD,USD,360T,Spot,Mumbai,PORT4,Summit,State Street,Urgent,Yes,Complete,Flagged,USD,FX_TRD_02,Under Review
+USD/INR,HSBC,USD,INR,Bloomberg,Forward,Singapore,PORT4,Calypso,HSBC Custody,Special,Yes,Pending,Clear,INR,FX_TRD_02,Approved
+AUD/USD,Citi,AUD,USD,360T,Spot,Singapore,PORT4,Calypso,HSBC Custody,Urgent,No,Incomplete,Flagged,USD,FX_FIN_03,Rejected
+USD/INR,Citi,USD,INR,EBS,Forward,Mumbai,PORT2,Calypso,JP Morgan,Special,Yes,Complete,Flagged,INR,FX_OPS_01,Under Review
+GBP/USD,Deutsche,GBP,USD,Reuters,Forward,London,PORT1,Custom,BNY Mellon,Special,No,Complete,Clear,USD,FX_OPS_01,Under Review
+USD/JPY,BNP Paribas,USD,JPY,Reuters,Swap,New York,PORT1,Custom,State Street,Urgent,No,Complete,Flagged,JPY,FX_FIN_03,Rejected
+USD/CHF,Citi,USD,CHF,Bloomberg,Forward,Mumbai,PORT3,Calypso,HSBC Custody,Special,Yes,Incomplete,Flagged,CHF,FX_OPS_01,Approved
+GBP/USD,BNP Paribas,GBP,USD,360T,Forward,Mumbai,PORT2,Murex,HSBC Custody,Standard,Yes,Pending,Pending Review,USD,FX_FIN_03,Rejected
+USD/INR,Citi,USD,INR,EBS,Forward,New York,PORT2,Summit,State Street,Special,No,Pending,Pending Review,INR,FX_TRD_02,Approved
+AUD/USD,Citi,AUD,USD,EBS,Spot,New York,PORT3,Murex,State Street,Standard,Yes,Incomplete,Pending Review,USD,FX_OPS_01,Approved
+USD/JPY,Citi,USD,JPY,Bloomberg,Forward,New York,PORT4,Custom,JP Morgan,Urgent,No,Incomplete,Flagged,JPY,FX_OPS_01,Approved
+USD/JPY,Citi,USD,JPY,360T,Forward,Singapore,PORT2,Calypso,State Street,Special,Yes,Incomplete,Flagged,JPY,FX_FIN_03,Approved
+EUR/USD,Deutsche,EUR,USD,Bloomberg,Forward,Singapore,PORT3,Murex,State Street,Special,Yes,Complete,Clear,USD,FX_FIN_03,Approved
+USD/JPY,BNP Paribas,USD,JPY,EBS,Spot,Mumbai,PORT3,Calypso,JP Morgan,Standard,No,Pending,Clear,JPY,FX_TRD_02,Approved
+EUR/USD,HSBC,EUR,USD,EBS,Forward,Singapore,PORT5,Summit,State Street,Special,Yes,Complete,Flagged,USD,FX_TRD_02,Approved
+AUD/USD,Citi,AUD,USD,Reuters,Spot,Mumbai,PORT3,Calypso,HSBC Custody,Special,Yes,Incomplete,Flagged,USD,FX_TRD_02,Rejected
+USD/CHF,Deutsche,USD,CHF,Reuters,Forward,Mumbai,PORT4,Summit,State Street,Standard,Yes,Complete,Pending Review,CHF,FX_FIN_03,Under Review
+GBP/USD,BNP Paribas,GBP,USD,Bloomberg,Spot,New York,PORT5,Summit,BNY Mellon,Standard,No,Pending,Flagged,USD,FX_TRD_02,Under Review
+EUR/USD,JPMorgan,EUR,USD,360T,Forward,New York,PORT4,Custom,JP Morgan,Urgent,No,Complete,Clear,USD,FX_TRD_02,Rejected
+USD/CHF,Deutsche,USD,CHF,Reuters,Forward,New York,PORT2,Murex,JP Morgan,Standard,Yes,Complete,Clear,CHF,FX_OPS_01,Under Review
+USD/CHF,Citi,USD,CHF,360T,Forward,Singapore,PORT5,Summit,JP Morgan,Urgent,Yes,Incomplete,Pending Review,CHF,FX_TRD_02,Rejected
+USD/JPY,JPMorgan,USD,JPY,Reuters,Forward,New York,PORT2,Calypso,BNY Mellon,Urgent,Yes,Pending,Clear,JPY,FX_FIN_03,Rejected
+USD/CHF,HSBC,USD,CHF,Reuters,Spot,New York,PORT5,Murex,JP Morgan,Special,No,Pending,Clear,CHF,FX_TRD_02,Under Review
+USD/JPY,BNP Paribas,USD,JPY,Reuters,Forward,Singapore,PORT4,Summit,BNY Mellon,Urgent,No,Complete,Flagged,JPY,FX_FIN_03,Under Review
+EUR/USD,Deutsche,EUR,USD,360T,Forward,Singapore,PORT2,Calypso,State Street,Urgent,Yes,Incomplete,Pending Review,USD,FX_FIN_03,Approved
+USD/JPY,Deutsche,USD,JPY,360T,Swap,London,PORT5,Calypso,BNY Mellon,Urgent,Yes,Complete,Flagged,JPY,FX_TRD_02,Under Review
+USD/JPY,Deutsche,USD,JPY,360T,Swap,London,PORT1,Calypso,State Street,Standard,Yes,Pending,Pending Review,JPY,FX_TRD_02,Under Review
+EUR/USD,Citi,EUR,USD,EBS,Swap,London,PORT2,Murex,HSBC Custody,Urgent,No,Pending,Flagged,USD,FX_TRD_02,Rejected
+AUD/USD,Citi,AUD,USD,EBS,Spot,London,PORT3,Summit,BNY Mellon,Standard,Yes,Pending,Clear,USD,FX_OPS_01,Rejected
+USD/JPY,BNP Paribas,USD,JPY,Reuters,Forward,Mumbai,PORT5,Summit,State Street,Standard,Yes,Incomplete,Pending Review,JPY,FX_OPS_01,Under Review
+GBP/USD,Citi,GBP,USD,Bloomberg,Swap,Mumbai,PORT2,Summit,HSBC Custody,Urgent,Yes,Complete,Clear,USD,FX_TRD_02,Approved
+USD/INR,Citi,USD,INR,360T,Swap,New York,PORT5,Summit,BNY Mellon,Special,No,Pending,Pending Review,INR,FX_TRD_02,Under Review
+USD/CHF,HSBC,USD,CHF,Bloomberg,Forward,London,PORT1,Calypso,JP Morgan,Urgent,Yes,Complete,Pending Review,CHF,FX_OPS_01,Approved
+GBP/USD,BNP Paribas,GBP,USD,360T,Swap,Singapore,PORT1,Custom,HSBC Custody,Special,No,Pending,Flagged,USD,FX_OPS_01,Under Review
+EUR/USD,JPMorgan,EUR,USD,Bloomberg,Forward,London,PORT4,Summit,State Street,Urgent,Yes,Pending,Pending Review,USD,FX_FIN_03,Under Review
+USD/JPY,BNP Paribas,USD,JPY,EBS,Spot,Mumbai,PORT3,Murex,JP Morgan,Standard,No,Complete,Flagged,JPY,FX_FIN_03,Under Review
+AUD/USD,HSBC,AUD,USD,EBS,Forward,New York,PORT4,Murex,BNY Mellon,Special,No,Complete,Pending Review,USD,FX_TRD_02,Under Review
+GBP/USD,Deutsche,GBP,USD,Bloomberg,Forward,New York,PORT4,Custom,State Street,Standard,No,Complete,Pending Review,USD,FX_FIN_03,Approved
+AUD/USD,HSBC,AUD,USD,EBS,Spot,London,PORT2,Calypso,HSBC Custody,Standard,No,Incomplete,Clear,USD,FX_FIN_03,Under Review
+AUD/USD,HSBC,AUD,USD,Reuters,Forward,Singapore,PORT3,Murex,JP Morgan,Special,No,Pending,Pending Review,USD,FX_FIN_03,Under Review
+EUR/USD,BNP Paribas,EUR,USD,EBS,Forward,London,PORT5,Calypso,BNY Mellon,Urgent,Yes,Complete,Pending Review,USD,FX_TRD_02,Approved
+AUD/USD,Citi,AUD,USD,360T,Spot,New York,PORT3,Custom,HSBC Custody,Special,No,Complete,Clear,USD,FX_OPS_01,Rejected
+EUR/USD,BNP Paribas,EUR,USD,EBS,Forward,New York,PORT4,Murex,HSBC Custody,Urgent,Yes,Incomplete,Pending Review,USD,FX_TRD_02,Under Review
+EUR/USD,JPMorgan,EUR,USD,Bloomberg,Forward,Singapore,PORT5,Calypso,BNY Mellon,Special,Yes,Complete,Clear,USD,FX_TRD_02,Approved
+USD/CHF,HSBC,USD,CHF,EBS,Swap,London,PORT5,Summit,BNY Mellon,Urgent,Yes,Pending,Clear,CHF,FX_FIN_03,Under Review
+USD/INR,Citi,USD,INR,Reuters,Spot,London,PORT5,Summit,State Street,Standard,No,Complete,Flagged,INR,FX_TRD_02,Rejected
+GBP/USD,HSBC,GBP,USD,360T,Swap,London,PORT2,Custom,State Street,Standard,Yes,Complete,Flagged,USD,FX_TRD_02,Under Review
+EUR/USD,JPMorgan,EUR,USD,Bloomberg,Forward,New York,PORT4,Summit,JP Morgan,Special,No,Complete,Clear,USD,FX_FIN_03,Rejected
+USD/INR,JPMorgan,USD,INR,Bloomberg,Spot,Mumbai,PORT4,Summit,BNY Mellon,Special,Yes,Complete,Flagged,INR,FX_FIN_03,Under Review
+USD/INR,BNP Paribas,USD,INR,360T,Spot,Singapore,PORT3,Murex,BNY Mellon,Special,No,Complete,Pending Review,INR,FX_OPS_01,Under Review
+USD/CHF,Citi,USD,CHF,Reuters,Swap,Singapore,PORT4,Calypso,JP Morgan,Special,Yes,Incomplete,Pending Review,CHF,FX_FIN_03,Rejected
+GBP/USD,JPMorgan,GBP,USD,360T,Spot,Singapore,PORT2,Calypso,BNY Mellon,Standard,Yes,Complete,Flagged,USD,FX_FIN_03,Rejected
+GBP/USD,Citi,GBP,USD,360T,Swap,Singapore,PORT5,Summit,HSBC Custody,Urgent,Yes,Complete,Flagged,USD,FX_TRD_02,Rejected
+USD/CHF,Deutsche,USD,CHF,EBS,Spot,Singapore,PORT1,Summit,BNY Mellon,Urgent,Yes,Incomplete,Pending Review,CHF,FX_OPS_01,Under Review
+GBP/USD,HSBC,GBP,USD,Reuters,Forward,New York,PORT3,Summit,HSBC Custody,Special,Yes,Incomplete,Clear,USD,FX_FIN_03,Approved
+EUR/USD,Deutsche,EUR,USD,Bloomberg,Spot,Mumbai,PORT4,Murex,State Street,Standard,No,Incomplete,Clear,USD,FX_FIN_03,Under Review
+USD/INR,HSBC,USD,INR,EBS,Spot,Singapore,PORT1,Summit,HSBC Custody,Urgent,No,Complete,Pending Review,INR,FX_OPS_01,Under Review
+GBP/USD,JPMorgan,GBP,USD,Reuters,Swap,New York,PORT3,Summit,State Street,Standard,No,Complete,Clear,USD,FX_TRD_02,Under Review
+USD/CHF,BNP Paribas,USD,CHF,360T,Swap,New York,PORT5,Calypso,HSBC Custody,Special,No,Complete,Pending Review,CHF,FX_OPS_01,Approved
+AUD/USD,JPMorgan,AUD,USD,Bloomberg,Forward,London,PORT2,Custom,JP Morgan,Special,Yes,Complete,Flagged,USD,FX_FIN_03,Rejected
+USD/INR,HSBC,USD,INR,Reuters,Forward,Singapore,PORT5,Summit,HSBC Custody,Urgent,Yes,Pending,Flagged,INR,FX_FIN_03,Under Review
+USD/JPY,Deutsche,USD,JPY,Reuters,Forward,Mumbai,PORT5,Murex,State Street,Urgent,No,Incomplete,Flagged,JPY,FX_TRD_02,Rejected
+USD/INR,JPMorgan,USD,INR,Reuters,Spot,New York,PORT2,Custom,HSBC Custody,Urgent,Yes,Pending,Pending Review,INR,FX_TRD_02,Rejected
+AUD/USD,JPMorgan,AUD,USD,EBS,Spot,London,PORT3,Custom,JP Morgan,Special,No,Complete,Pending Review,USD,FX_FIN_03,Approved
+USD/JPY,JPMorgan,USD,JPY,Reuters,Swap,London,PORT3,Murex,BNY Mellon,Special,Yes,Complete,Flagged,JPY,FX_FIN_03,Under Review
+EUR/USD,Deutsche,EUR,USD,360T,Swap,Singapore,PORT1,Summit,JP Morgan,Urgent,Yes,Pending,Clear,USD,FX_FIN_03,Under Review
+AUD/USD,Deutsche,AUD,USD,Reuters,Forward,New York,PORT2,Summit,BNY Mellon,Special,No,Pending,Clear,USD,FX_TRD_02,Rejected
+USD/INR,BNP Paribas,USD,INR,Reuters,Swap,London,PORT5,Summit,HSBC Custody,Standard,No,Pending,Flagged,INR,FX_TRD_02,Under Review
+AUD/USD,HSBC,AUD,USD,Bloomberg,Forward,Mumbai,PORT2,Custom,JP Morgan,Urgent,Yes,Complete,Clear,USD,FX_TRD_02,Under Review
+AUD/USD,JPMorgan,AUD,USD,360T,Spot,Mumbai,PORT1,Summit,JP Morgan,Urgent,No,Complete,Clear,USD,FX_TRD_02,Approved
+EUR/USD,Citi,EUR,USD,EBS,Spot,Singapore,PORT1,Summit,BNY Mellon,Urgent,No,Pending,Flagged,USD,FX_FIN_03,Under Review
+EUR/USD,BNP Paribas,EUR,USD,Bloomberg,Spot,New York,PORT1,Calypso,JP Morgan,Standard,Yes,Complete,Flagged,USD,FX_FIN_03,Approved
+AUD/USD,HSBC,AUD,USD,EBS,Forward,London,PORT4,Custom,BNY Mellon,Special,No,Complete,Clear,USD,FX_TRD_02,Approved
+USD/INR,Deutsche,USD,INR,360T,Forward,New York,PORT4,Calypso,State Street,Urgent,Yes,Complete,Clear,INR,FX_OPS_01,Approved
+USD/CHF,Citi,USD,CHF,Reuters,Spot,Singapore,PORT3,Custom,State Street,Special,No,Complete,Clear,CHF,FX_FIN_03,Approved
+USD/JPY,BNP Paribas,USD,JPY,Reuters,Swap,Singapore,PORT3,Custom,BNY Mellon,Urgent,No,Complete,Clear,JPY,FX_TRD_02,Approved
+GBP/USD,HSBC,GBP,USD,360T,Swap,London,PORT2,Murex,HSBC Custody,Special,No,Incomplete,Pending Review,USD,FX_FIN_03,Rejected
+AUD/USD,JPMorgan,AUD,USD,Bloomberg,Spot,Mumbai,PORT4,Custom,BNY Mellon,Special,No,Complete,Pending Review,USD,FX_FIN_03,Under Review
+USD/JPY,HSBC,USD,JPY,EBS,Swap,Mumbai,PORT5,Murex,BNY Mellon,Standard,Yes,Complete,Clear,JPY,FX_OPS_01,Approved
+GBP/USD,Deutsche,GBP,USD,360T,Forward,London,PORT2,Custom,State Street,Urgent,No,Complete,Pending Review,USD,FX_OPS_01,Rejected
+AUD/USD,HSBC,AUD,USD,Bloomberg,Forward,Singapore,PORT2,Custom,BNY Mellon,Special,No,Complete,Flagged,USD,FX_OPS_01,Under Review
+USD/INR,Deutsche,USD,INR,Bloomberg,Forward,Mumbai,PORT5,Summit,BNY Mellon,Urgent,Yes,Incomplete,Flagged,INR,FX_FIN_03,Under Review
+EUR/USD,Deutsche,EUR,USD,Reuters,Swap,Mumbai,PORT5,Summit,State Street,Standard,Yes,Pending,Flagged,USD,FX_OPS_01,Approved
+EUR/USD,JPMorgan,EUR,USD,360T,Spot,Mumbai,PORT2,Summit,BNY Mellon,Standard,Yes,Pending,Clear,USD,FX_TRD_02,Approved
+USD/JPY,JPMorgan,USD,JPY,360T,Forward,New York,PORT2,Summit,BNY Mellon,Standard,No,Complete,Flagged,JPY,FX_TRD_02,Rejected
+EUR/USD,JPMorgan,EUR,USD,EBS,Spot,London,PORT2,Custom,State Street,Urgent,No,Complete,Clear,USD,FX_TRD_02,Under Review
+AUD/USD,BNP Paribas,AUD,USD,Reuters,Spot,London,PORT3,Murex,State Street,Urgent,Yes,Complete,Clear,USD,FX_TRD_02,Approved
+USD/JPY,Deutsche,USD,JPY,Bloomberg,Forward,New York,PORT1,Calypso,State Street,Urgent,Yes,Complete,Pending Review,JPY,FX_TRD_02,Under Review
+EUR/USD,Citi,EUR,USD,Bloomberg,Swap,New York,PORT3,Custom,State Street,Standard,No,Pending,Pending Review,USD,FX_OPS_01,Rejected
+EUR/USD,HSBC,EUR,USD,360T,Swap,Singapore,PORT2,Summit,State Street,Urgent,Yes,Incomplete,Clear,USD,FX_FIN_03,Under Review
+GBP/USD,HSBC,GBP,USD,360T,Spot,Mumbai,PORT2,Custom,JP Morgan,Standard,No,Complete,Flagged,USD,FX_FIN_03,Under Review
+AUD/USD,Citi,AUD,USD,Bloomberg,Swap,Mumbai,PORT3,Custom,JP Morgan,Standard,No,Complete,Pending Review,USD,FX_FIN_03,Rejected
+EUR/USD,Citi,EUR,USD,360T,Forward,London,PORT4,Custom,JP Morgan,Standard,Yes,Pending,Clear,USD,FX_OPS_01,Approved
+USD/JPY,JPMorgan,USD,JPY,360T,Spot,Mumbai,PORT5,Summit,JP Morgan,Standard,No,Complete,Clear,JPY,FX_OPS_01,Rejected
+AUD/USD,Deutsche,AUD,USD,Bloomberg,Forward,Mumbai,PORT5,Murex,HSBC Custody,Standard,Yes,Pending,Clear,USD,FX_FIN_03,Approved
+USD/CHF,Citi,USD,CHF,Reuters,Spot,Singapore,PORT3,Summit,BNY Mellon,Urgent,No,Pending,Flagged,CHF,FX_TRD_02,Under Review
+USD/CHF,BNP Paribas,USD,CHF,EBS,Spot,New York,PORT3,Calypso,State Street,Urgent,No,Incomplete,Flagged,CHF,FX_OPS_01,Under Review
+USD/INR,JPMorgan,USD,INR,EBS,Forward,Singapore,PORT3,Calypso,State Street,Standard,Yes,Pending,Clear,INR,FX_TRD_02,Under Review
+USD/INR,Citi,USD,INR,EBS,Spot,London,PORT1,Calypso,State Street,Standard,Yes,Complete,Pending Review,INR,FX_FIN_03,Rejected
+AUD/USD,BNP Paribas,AUD,USD,EBS,Spot,London,PORT3,Custom,State Street,Standard,No,Incomplete,Flagged,USD,FX_FIN_03,Under Review
+USD/JPY,Deutsche,USD,JPY,360T,Forward,New York,PORT4,Calypso,HSBC Custody,Urgent,No,Complete,Flagged,JPY,FX_TRD_02,Approved
+EUR/USD,Citi,EUR,USD,360T,Swap,London,PORT5,Custom,BNY Mellon,Standard,Yes,Pending,Flagged,USD,FX_OPS_01,Rejected
+USD/INR,JPMorgan,USD,INR,360T,Spot,Mumbai,PORT3,Calypso,State Street,Special,Yes,Incomplete,Flagged,INR,FX_TRD_02,Under Review
+EUR/USD,Deutsche,EUR,USD,EBS,Forward,New York,PORT3,Murex,State Street,Urgent,No,Incomplete,Clear,USD,FX_FIN_03,Approved
+EUR/USD,Deutsche,EUR,USD,Reuters,Forward,Singapore,PORT3,Custom,JP Morgan,Urgent,No,Incomplete,Clear,USD,FX_OPS_01,Approved
+USD/JPY,Citi,USD,JPY,Reuters,Swap,New York,PORT1,Calypso,HSBC Custody,Standard,Yes,Incomplete,Pending Review,JPY,FX_FIN_03,Rejected
+EUR/USD,Deutsche,EUR,USD,EBS,Spot,London,PORT2,Murex,JP Morgan,Urgent,Yes,Complete,Pending Review,USD,FX_OPS_01,Under Review
+USD/CHF,Deutsche,USD,CHF,EBS,Swap,Singapore,PORT4,Summit,JP Morgan,Urgent,Yes,Complete,Flagged,CHF,FX_FIN_03,Under Review
+EUR/USD,BNP Paribas,EUR,USD,EBS,Swap,Singapore,PORT4,Murex,State Street,Standard,No,Pending,Flagged,USD,FX_FIN_03,Rejected
+GBP/USD,JPMorgan,GBP,USD,Reuters,Spot,Singapore,PORT4,Custom,BNY Mellon,Urgent,Yes,Pending,Flagged,USD,FX_OPS_01,Under Review
+USD/CHF,BNP Paribas,USD,CHF,Reuters,Spot,New York,PORT1,Summit,JP Morgan,Urgent,No,Complete,Pending Review,CHF,FX_FIN_03,Approved
+AUD/USD,Citi,AUD,USD,Reuters,Swap,Mumbai,PORT5,Murex,State Street,Urgent,Yes,Pending,Clear,USD,FX_FIN_03,Approved
+GBP/USD,Citi,GBP,USD,EBS,Forward,New York,PORT5,Custom,JP Morgan,Standard,No,Incomplete,Clear,USD,FX_FIN_03,Approved
+AUD/USD,JPMorgan,AUD,USD,Reuters,Spot,New York,PORT2,Custom,HSBC Custody,Standard,No,Complete,Pending Review,USD,FX_FIN_03,Under Review
+USD/INR,BNP Paribas,USD,INR,Bloomberg,Forward,Singapore,PORT1,Custom,State Street,Standard,Yes,Complete,Pending Review,INR,FX_OPS_01,Under Review
+USD/INR,HSBC,USD,INR,Reuters,Swap,Mumbai,PORT3,Custom,JP Morgan,Standard,No,Pending,Flagged,INR,FX_FIN_03,Under Review
+AUD/USD,JPMorgan,AUD,USD,360T,Swap,London,PORT4,Summit,JP Morgan,Urgent,No,Incomplete,Flagged,USD,FX_FIN_03,Rejected
+USD/INR,JPMorgan,USD,INR,Reuters,Spot,London,PORT5,Murex,JP Morgan,Urgent,No,Pending,Pending Review,INR,FX_OPS_01,Under Review
+AUD/USD,Deutsche,AUD,USD,Bloomberg,Swap,London,PORT5,Murex,BNY Mellon,Special,Yes,Complete,Flagged,USD,FX_OPS_01,Approved
+USD/CHF,HSBC,USD,CHF,Bloomberg,Swap,Singapore,PORT5,Calypso,BNY Mellon,Special,No,Pending,Pending Review,CHF,FX_FIN_03,Rejected
+USD/JPY,BNP Paribas,USD,JPY,Bloomberg,Spot,New York,PORT4,Calypso,BNY Mellon,Urgent,Yes,Incomplete,Flagged,JPY,FX_OPS_01,Approved
+USD/CHF,Citi,USD,CHF,Bloomberg,Spot,New York,PORT4,Calypso,BNY Mellon,Standard,No,Complete,Pending Review,CHF,FX_TRD_02,Rejected
+USD/JPY,Citi,USD,JPY,Bloomberg,Forward,Singapore,PORT1,Custom,State Street,Standard,Yes,Complete,Clear,JPY,FX_TRD_02,Rejected
+AUD/USD,JPMorgan,AUD,USD,Bloomberg,Spot,London,PORT2,Summit,HSBC Custody,Standard,Yes,Incomplete,Pending Review,USD,FX_OPS_01,Approved
+GBP/USD,BNP Paribas,GBP,USD,EBS,Swap,London,PORT4,Custom,JP Morgan,Standard,Yes,Pending,Pending Review,USD,FX_OPS_01,Approved
+EUR/USD,BNP Paribas,EUR,USD,EBS,Swap,London,PORT1,Custom,HSBC Custody,Urgent,Yes,Complete,Clear,USD,FX_OPS_01,Approved
+USD/INR,Citi,USD,INR,360T,Forward,Mumbai,PORT3,Custom,BNY Mellon,Special,No,Pending,Pending Review,INR,FX_TRD_02,Rejected
+GBP/USD,JPMorgan,GBP,USD,360T,Spot,New York,PORT3,Calypso,JP Morgan,Urgent,No,Incomplete,Clear,USD,FX_OPS_01,Under Review
+GBP/USD,HSBC,GBP,USD,Bloomberg,Spot,London,PORT2,Calypso,JP Morgan,Urgent,Yes,Incomplete,Clear,USD,FX_OPS_01,Under Review
+USD/INR,Deutsche,USD,INR,EBS,Spot,London,PORT5,Murex,HSBC Custody,Standard,Yes,Incomplete,Flagged,INR,FX_FIN_03,Approved
+GBP/USD,JPMorgan,GBP,USD,EBS,Swap,London,PORT2,Summit,HSBC Custody,Urgent,Yes,Complete,Pending Review,USD,FX_OPS_01,Rejected
+USD/CHF,JPMorgan,USD,CHF,Bloomberg,Spot,New York,PORT4,Calypso,JP Morgan,Urgent,Yes,Pending,Clear,CHF,FX_OPS_01,Approved
+USD/CHF,HSBC,USD,CHF,Bloomberg,Swap,Mumbai,PORT2,Summit,HSBC Custody,Special,No,Pending,Flagged,CHF,FX_TRD_02,Rejected
+USD/INR,HSBC,USD,INR,360T,Forward,Mumbai,PORT1,Summit,State Street,Special,Yes,Pending,Pending Review,INR,FX_TRD_02,Under Review
+USD/JPY,HSBC,USD,JPY,Reuters,Forward,Mumbai,PORT5,Summit,BNY Mellon,Urgent,No,Incomplete,Flagged,JPY,FX_TRD_02,Under Review
+EUR/USD,JPMorgan,EUR,USD,360T,Swap,New York,PORT1,Calypso,BNY Mellon,Special,No,Incomplete,Pending Review,USD,FX_OPS_01,Rejected
+USD/JPY,JPMorgan,USD,JPY,360T,Spot,London,PORT1,Custom,HSBC Custody,Special,No,Incomplete,Pending Review,JPY,FX_FIN_03,Under Review

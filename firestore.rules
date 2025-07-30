@@ -1,0 +1,143 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Common functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isAdmin() {
+      // Check if the user's UID exists in an 'admins' collection
+      return exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+
+    function isValidFileSize(size) {
+      return size < 10 * 1024 * 1024; // 10MB max file size
+    }
+
+    function isValidFileType(contentType) {
+      return contentType.matches('text/csv') || 
+             contentType.matches('application/vnd.ms-excel');
+    }
+
+    // Existing Collections
+
+    // Admins collection
+    match /admins/{userId} {
+      allow read, write: if isAdmin();
+    }
+
+    // Accounts collection
+    match /accounts/{accountId} {
+      allow read, update, delete: if isAdmin();
+      allow create: if isAuthenticated();
+    }
+
+    // Counters for account ID generation
+    match /counters/{counterId} {
+      allow read, write: if isAuthenticated();
+    }
+
+    // Reconciliation Batches
+    match /reconciliation_batches/{batchId} {
+      allow read, create, update, delete: if isAdmin();
+    }
+
+    // Trades collection
+    match /trades/{document=**} {
+      allow read, write: if isAuthenticated();
+    }
+
+    // Account Requests collection
+    match /account_requests/{docId} {
+      allow create: if true; // Anyone can submit a request
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Users collection
+    match /users/{userId} {
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow write: if isAdmin();
+    }
+
+    // User Reconciliation Submissions
+    match /user_reconciliation_submissions/{docId} {
+      allow create: if isAuthenticated();
+      allow read, update, delete: if true;
+    }
+
+    // New Collections for Reference Data Website
+
+    // Equity instruments
+    match /equity/{document=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && (isAdmin() || resource.data.createdBy == request.auth.uid);
+    }
+
+    // Forex instruments
+    match /forex/{document=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && (isAdmin() || resource.data.createdBy == request.auth.uid);
+    }
+
+    // Clients
+    match /equityClients/{document=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && (isAdmin() || resource.data.createdBy == request.auth.uid);
+    }
+
+    match /forexClients/{document=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && (isAdmin() || resource.data.createdBy == request.auth.uid);
+    }
+
+    // SSI records
+    match /equitySSI/{document=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && (isAdmin() || resource.data.createdBy == request.auth.uid);
+    }
+
+    match /forexSSI/{document=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && (isAdmin() || resource.data.createdBy == request.auth.uid);
+    }
+
+    // Prices
+    match /prices/{document=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && isAdmin();
+    }
+
+    // Audit trail
+    match /audit/{document=**} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated();
+      allow update, delete: if isAdmin();
+    }
+
+    // Notifications
+    match /notifications/{document=**} {
+      allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || !resource.data.userId);
+      allow create: if isAuthenticated();
+      allow update: if isAuthenticated() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow delete: if isAdmin();
+    }
+
+    // File metadata storage
+    match /files/{fileId} {
+      allow read: if isAuthenticated();
+      allow create: if isAuthenticated() && 
+        isValidFileSize(request.resource.data.size) && 
+        isValidFileType(request.resource.contentType);
+      allow delete: if isAuthenticated() && (
+        resource.data.uploadedBy == request.auth.uid || isAdmin()
+      );
+    }
+
+    // CSV data storage
+    match /csvData/{document=**} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && (isAdmin() || resource.data.uploadedBy == request.auth.uid);
+    }
+  }
+} 
