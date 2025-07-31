@@ -67,6 +67,7 @@ jspm_packages/
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
+src/firebase/serviceAccount.json
 
 # Uploads and temporary files
 uploads/
