@@ -139,8 +139,51 @@ export interface EquityClient {
 }
 
 export interface ForexClient {
-  id: string;
-  name: string;
-  role: string;
-  approvalStatus: string;
+  id?: string;
+  ClientID?: string;
+  Counterparty?: string;
+  Portfolio?: string;
+  Custodian?: string;
+  NettingEligibility?: string;
+  KYCStatus?: string;
+  SanctionsScreening?: string;
+  ExpenseApprovalStatus?: string;
+}
+
+export interface ForexInstrument {
+  id?: string;
+  CurrencyPair: string;
+  BaseCurrency: string;
+  TermCurrency: string;
+  ExecutionVenue: string;
+  ProductType: string;
+  Portfolio?: string;
+  TradeSourceSystem?: string;
+  Custodian?: string;
+  SettlementInstructions?: string;
+  NettingEligibility?: string;
+  KYCStatus?: string;
+  SanctionsScreening?: string;
+  CostCenter?: string;
+  ExpenseApprovalStatus?: string;
+  createdAt?: Date;
+  updatedAt?: Date;
+}
+
+export interface ForexSSI {
+  id?: string;
+  BookingLocation?: string;
+  SettlementCurrency?: string;
+  SettlementInstruction?: string;
+  ConfirmationStatus?: string;
+  SettlementDate?: string;
+  swift_bic_code?: string;
+  account_number?: string;
+  iban?: string;
+  bsb_code?: string;
+  sort_code?: string;
+  zengin_code?: string;
+  aba_routing_number?: string;
+  settlement_method?: string;
+  beneficiary_name?: string;
 } 

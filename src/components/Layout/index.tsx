@@ -139,7 +139,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         boxSizing: 'border-box',
         borderBottom: '1px solid',
         borderColor: 'divider',
-        background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)',
+        background: 'linear-gradient(135deg, #00AEEF 0%, #0099CC 100%)',
         color: 'white'
       }}>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
@@ -323,7 +323,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           width: { sm: `calc(100% - ${drawerWidth}px)` },
           ml: { sm: `${drawerWidth}px` },
           boxShadow: 'none',
-          background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)',
+          background: 'linear-gradient(135deg, #00AEEF 0%, #0099CC 100%)',
         }}
       >
         <Toolbar sx={{ px: 3 }}>

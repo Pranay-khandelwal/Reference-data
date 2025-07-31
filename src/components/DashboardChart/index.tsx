@@ -55,7 +55,7 @@ const DashboardChart: React.FC<DashboardChartProps> = ({
       <svg width="100%" height="100%" style={{ overflow: 'visible' }}>
         <polyline
           fill="none"
-          stroke="#2563EB"
+          stroke="#00AEEF"
           strokeWidth="3"
           points={data.map((point, index) => {
             const x = (index / (data.length - 1)) * 100;
@@ -72,7 +72,7 @@ const DashboardChart: React.FC<DashboardChartProps> = ({
               cx={`${x}%`}
               cy={`${y}%`}
               r="4"
-              fill="#2563EB"
+              fill="#00AEEF"
               stroke="white"
               strokeWidth="2"
             />
@@ -87,8 +87,8 @@ const DashboardChart: React.FC<DashboardChartProps> = ({
       <svg width="100%" height="100%" style={{ overflow: 'visible' }}>
         <defs>
           <linearGradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#2563EB" stopOpacity="0.8" />
-            <stop offset="100%" stopColor="#2563EB" stopOpacity="0.1" />
+            <stop offset="0%" stopColor="#00AEEF" stopOpacity="0.8" />
+            <stop offset="100%" stopColor="#00AEEF" stopOpacity="0.1" />
           </linearGradient>
         </defs>
         <path
@@ -101,7 +101,7 @@ const DashboardChart: React.FC<DashboardChartProps> = ({
         />
         <polyline
           fill="none"
-          stroke="#2563EB"
+          stroke="#00AEEF"
           strokeWidth="3"
           points={data.map((point, index) => {
             const x = (index / (data.length - 1)) * 100;

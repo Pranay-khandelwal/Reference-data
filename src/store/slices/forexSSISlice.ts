@@ -1,7 +1,8 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { ForexSSI } from '../../types';
 
 interface ForexSSIState {
-  latestForexSSI: any | null;
+  latestForexSSI: ForexSSI | null;
 }
 
 const initialState: ForexSSIState = {
@@ -12,7 +13,7 @@ const forexSSISlice = createSlice({
   name: 'forexSSI',
   initialState,
   reducers: {
-    setLatestForexSSI: (state, action: PayloadAction<any>) => {
+    setLatestForexSSI: (state, action: PayloadAction<ForexSSI>) => {
       state.latestForexSSI = action.payload;
     },
   },

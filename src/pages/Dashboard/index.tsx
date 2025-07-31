@@ -23,7 +23,20 @@ import {
   ShowChart as ShowChartIcon,
 } from '@mui/icons-material';
 import AddInstrumentModal from '../../components/AddInstrumentModal';
-import { getRecentEquityInstruments, getEquityInstruments, getForexInstruments, getPrices, addEquityInstrument } from '../../services/api';
+import { 
+  getRecentEquityInstruments, 
+  getEquityInstruments, 
+  getForexInstruments, 
+  getPrices, 
+  addEquityInstrument,
+  addForexInstrument,
+  addFixedIncomeInstrument,
+  addFuturesInstrument,
+  addOptionsInstrument,
+  getFixedIncomeInstruments,
+  getFuturesInstruments,
+  getOptionsInstruments
+} from '../../services/api';
 
 interface RecentEquityInstrument {
   _id: string;
@@ -232,29 +245,81 @@ const Dashboard: React.FC = () => {
   const handleAddInstrument = async (data: any) => {
     setAddInstrumentOpen(false);
     try {
-      // Map modal fields to backend schema
-      const payload = {
-        ISIN: data.ISIN,
-        Symbol: data.symbol,
-        TradingVenue: data.tradingVenue,
-        Currency: data.currency,
-        CountryOfTrade: data.countryOfTrade,
-        FXRateApplied: data.fxRateApplied,
-        PricingSource: data.pricingSource,
-      };
-      await addEquityInstrument(payload);
+      let result;
+      
+      // Add instrument based on asset class
+      switch (data.assetClass) {
+        case 'Equity':
+          result = await addEquityInstrument({
+            ISIN: data.ISIN,
+            Symbol: data.symbol,
+            TradingVenue: data.tradingVenue,
+            Currency: data.currency,
+            CountryOfTrade: data.countryOfTrade,
+            Status: data.status || 'Active'
+          });
+          break;
+        case 'Forex':
+          result = await addForexInstrument({
+            CurrencyPair: data.currencyPair,
+            BaseCurrency: data.baseCurrency,
+            TermCurrency: data.termCurrency,
+            ExecutionVenue: data.executionVenue,
+            ProductType: data.productType
+          });
+          break;
+        case 'Fixed Income':
+          result = await addFixedIncomeInstrument({
+            ISIN: data.ISIN,
+            MaturityDate: data.maturityDate,
+            CouponRate: data.couponRate,
+            CouponFrequency: data.couponFrequency,
+            IssuerName: data.issuerName,
+            Status: data.status || 'Active'
+          });
+          break;
+        case 'Futures':
+          result = await addFuturesInstrument({
+            ContractCode: data.contractCode,
+            UnderlyingAsset: data.underlyingAsset,
+            ExpiryDate: data.expiryDate,
+            LotSize: data.lotSize,
+            TradingVenue: data.tradingVenue,
+            Currency: data.currency
+          });
+          break;
+        case 'Options':
+          result = await addOptionsInstrument({
+            ContractCode: data.contractCode,
+            UnderlyingAsset: data.underlyingAsset,
+            OptionType: data.optionType,
+            ExpiryDate: data.expiryDate,
+            LotSize: data.lotSize,
+            StrikePrice: data.strikePrice
+          });
+          break;
+        default:
+          throw new Error('Invalid asset class');
+      }
+
       // Refresh recent instruments and counts
-      const [recent, equity, forex] = await Promise.all([
+      const [recent, equity, forex, fixedIncome, futures, options] = await Promise.all([
         getRecentEquityInstruments(),
         getEquityInstruments(),
-        getForexInstruments()
+        getForexInstruments(),
+        getFixedIncomeInstruments(),
+        getFuturesInstruments(),
+        getOptionsInstruments()
       ]);
+      
       setRecentInstruments(recent as unknown as RecentEquityInstrument[]);
       setEquityInstrumentCount((equity?.length || 0));
       setForexInstrumentCount((forex?.length || 0));
-      // Show notification (replace with Snackbar if you have one)
-      window.alert('Instrument added!');
+      
+      // Show success notification
+      window.alert(`${data.assetClass} instrument added successfully!`);
     } catch (error: any) {
+      console.error('Error adding instrument:', error);
       window.alert('Error adding instrument: ' + (error.message || error));
     }
   };
@@ -287,7 +352,7 @@ const Dashboard: React.FC = () => {
           p: 2, 
           bgcolor: 'primary.main', 
           borderRadius: 2,
-          background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)',
+          background: 'linear-gradient(135deg, #00AEEF 0%, #0099CC 100%)',
           color: 'white'
         }}>
           <Typography variant="h6" sx={{ fontWeight: 600, mb: 0.5 }}>
@@ -310,8 +375,8 @@ const Dashboard: React.FC = () => {
                 title="Equity Instruments"
                 value={equityInstrumentCount}
                 icon={<AccountBalanceIcon />}
-                color="#2563EB"
-                bgColor="#3B82F6"
+                color="#00AEEF"
+                bgColor="#33BFFF"
                 showTrend={false}
                 compact
                 subtitle={`Active: ${activeEquityCount} | Inactive: ${inactiveEquityCount}`}
@@ -322,8 +387,8 @@ const Dashboard: React.FC = () => {
                 title="Forex Instruments"
                 value={forexInstrumentCount}
                 icon={<TimelineIcon />}
-                color="#3B82F6"
-                bgColor="#DBEAFE"
+                color="#00AEEF"
+                bgColor="#E6F7FF"
                 showTrend={false}
                 compact
               />
@@ -427,8 +492,8 @@ const Dashboard: React.FC = () => {
               title="Add Instrument"
               description="Create new instrument record"
               icon={<AddIcon />}
-              color="#2563EB"
-              bgColor="#3B82F6"
+                              color="#00AEEF"
+                bgColor="#33BFFF"
               onClick={() => setAddInstrumentOpen(true)}
             />
             {/* Run Validation quick action removed */}

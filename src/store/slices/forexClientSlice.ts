@@ -1,7 +1,8 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { ForexClient } from '../../types';
 
 interface ForexClientState {
-  latestForexClient: any | null;
+  latestForexClient: ForexClient | null;
 }
 
 const initialState: ForexClientState = {
@@ -12,7 +13,7 @@ const forexClientSlice = createSlice({
   name: 'forexClient',
   initialState,
   reducers: {
-    setLatestForexClient: (state, action: PayloadAction<any>) => {
+    setLatestForexClient: (state, action: PayloadAction<ForexClient>) => {
       state.latestForexClient = action.payload;
     },
   },

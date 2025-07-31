@@ -4,9 +4,9 @@ export const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#2563EB',
-      light: '#3B82F6',
-      dark: '#1D4ED8',
+      main: '#00AEEF',
+      light: '#33BFFF',
+      dark: '#0099CC',
       contrastText: '#FFFFFF',
     },
     secondary: {
@@ -26,9 +26,9 @@ export const theme = createTheme({
       dark: '#D97706',
     },
     info: {
-      main: '#3B82F6',
-      light: '#60A5FA',
-      dark: '#2563EB',
+      main: '#00AEEF',
+      light: '#33BFFF',
+      dark: '#0099CC',
     },
     success: {
       main: '#10B981',
@@ -188,7 +188,7 @@ export const theme = createTheme({
       styleOverrides: {
         root: {
           boxShadow: '0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06)',
-          background: 'linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%)',
+          background: 'linear-gradient(135deg, #00AEEF 0%, #0099CC 100%)',
         },
       },
     },
@@ -206,12 +206,12 @@ export const theme = createTheme({
           borderRadius: 8,
           margin: '2px 8px',
           '&:hover': {
-            backgroundColor: 'rgba(37, 99, 235, 0.08)',
+            backgroundColor: 'rgba(0, 174, 239, 0.08)',
           },
           '&.Mui-selected': {
-            backgroundColor: 'rgba(37, 99, 235, 0.12)',
+            backgroundColor: 'rgba(0, 174, 239, 0.12)',
             '&:hover': {
-              backgroundColor: 'rgba(37, 99, 235, 0.16)',
+              backgroundColor: 'rgba(0, 174, 239, 0.16)',
             },
           },
         },

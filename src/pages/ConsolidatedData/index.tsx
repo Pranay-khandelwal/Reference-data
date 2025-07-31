@@ -27,6 +27,7 @@ import {
 import { Add as AddIcon, Save as SaveIcon, Edit as EditIcon, Cancel as CancelIcon, Delete as DeleteIcon } from '@mui/icons-material';
 import { Tooltip } from '@mui/material';
 import * as api from '../../services/api';
+import { ForexInstrument, ForexClient, ForexSSI } from '../../types';
 
 const FOREX_COLUMNS = [
   'CurrencyPair', 'BaseCurrency', 'TermCurrency', 'ExecutionVenue', 'ProductType', 'ClientID_Forex', 'Counterparty', 'BookingLocation', 'Portfolio', 'Custodian_Name', 'NettingEligibility', 'KYC_Status_Forex', 'SanctionsScreening', 'ExpenseApprovalStatus', 'SettlementCurrency', 'EffectiveDate_Forex', 'SettlementInstructions', 'ConfirmationStatus', 'SWIFT_Forex', 'accountNumber', 'IBAN_Forex', 'BSB_Forex', 'SORT_Forex', 'Beneficiary_Client_ID', 'SettlementMethod', 'ZENGIN', 'ABA Routing No.'
@@ -87,9 +88,9 @@ const ConsolidatedData: React.FC = () => {
       console.log('Latest SSIs:', latestSSIs);
       
       // Get the first (newest) record from each source
-      const latestInstrument = latestInstruments.length > 0 ? latestInstruments[0] : null;
-      const latestClient = latestClients.length > 0 ? latestClients[0] : null;
-      const latestSSI = latestSSIs.length > 0 ? latestSSIs[0] : null;
+      const latestInstrument: ForexInstrument | null = latestInstruments.length > 0 ? latestInstruments[0] as ForexInstrument : null;
+      const latestClient: ForexClient | null = latestClients.length > 0 ? latestClients[0] as ForexClient : null;
+      const latestSSI: ForexSSI | null = latestSSIs.length > 0 ? latestSSIs[0] as ForexSSI : null;
       
       console.log('Selected latest instrument:', latestInstrument);
       console.log('Selected latest client:', latestClient);
@@ -564,7 +565,7 @@ const ConsolidatedData: React.FC = () => {
       </Box>
       <Paper sx={{ mb: 3, p: 2 }}>
         {isPrefilled && (
-          <Box sx={{ mb: 2, p: 1, bgcolor: '#e3f2fd', borderRadius: 1, border: '1px solid #2196f3' }}>
+          <Box sx={{ mb: 2, p: 1, bgcolor: '#E6F7FF', borderRadius: 1, border: '1px solid #00AEEF' }}>
             <Typography variant="body2" color="primary">
               ✓ Form prefilled with combined data from Instrument Management, Client Onboarding, and SSI Data Management. You can manually edit any field to override the prefilled values.
             </Typography>

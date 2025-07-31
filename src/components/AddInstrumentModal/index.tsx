@@ -142,6 +142,10 @@ const AddInstrumentModal: React.FC<AddInstrumentModalProps> = ({
   useEffect(() => {
     if (open) {
       const initialAssetClass = assetClass || (editingInstrument ? editingInstrument.assetClass : '');
+      
+      // Set default date to 2025-07-30 for expiry and maturity dates
+      const defaultDate = '2025-07-30';
+      
       const initialData = {
         ISIN: '',
         instrumentName: '',
@@ -177,13 +181,13 @@ const AddInstrumentModal: React.FC<AddInstrumentModalProps> = ({
         costCenter: '',
         expenseApprovalStatus: '',
         status: 'Active',
-        maturityDate: '',
+        maturityDate: defaultDate,
         couponRate: 0,
         couponFrequency: '',
         issuerName: '',
         contractCode: '',
         underlyingAsset: '',
-        expiryDate: '',
+        expiryDate: defaultDate,
         lotSize: 0,
         optionType: 'Call',
         strikePrice: 0,
@@ -297,6 +301,7 @@ const AddInstrumentModal: React.FC<AddInstrumentModalProps> = ({
         onChange={handleTextChange('couponRate')}
         fullWidth
         type="number"
+        inputProps={{ step: 0.01 }}
       />
       <FormControl fullWidth>
         <InputLabel>Coupon Frequency</InputLabel>
@@ -358,6 +363,7 @@ const AddInstrumentModal: React.FC<AddInstrumentModalProps> = ({
         onChange={handleTextChange('lotSize')}
         fullWidth
         type="number"
+        inputProps={{ min: 0, step: 1 }}
       />
       <FormControl fullWidth>
         <InputLabel>Trading Venue</InputLabel>
@@ -425,6 +431,15 @@ const AddInstrumentModal: React.FC<AddInstrumentModalProps> = ({
         onChange={handleTextChange('lotSize')}
         fullWidth
         type="number"
+        inputProps={{ min: 0, step: 1 }}
+      />
+      <TextField
+        label="Strike Price"
+        value={formData.strikePrice}
+        onChange={handleTextChange('strikePrice')}
+        fullWidth
+        type="number"
+        inputProps={{ step: 0.01 }}
       />
     </Box>
   );
@@ -490,7 +505,30 @@ const AddInstrumentModal: React.FC<AddInstrumentModalProps> = ({
   );
 
   const renderContent = () => {
-    switch (assetClass) {
+    // If no asset class is selected, show asset class selection
+    if (!formData.assetClass) {
+      return (
+        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+          <FormControl fullWidth>
+            <InputLabel>Asset Class</InputLabel>
+            <Select
+              value={formData.assetClass}
+              label="Asset Class"
+              onChange={handleSelectChange('assetClass')}
+            >
+              <MenuItem value="Equity">Equity</MenuItem>
+              <MenuItem value="Forex">Forex</MenuItem>
+              <MenuItem value="Fixed Income">Fixed Income</MenuItem>
+              <MenuItem value="Futures">Futures</MenuItem>
+              <MenuItem value="Options">Options</MenuItem>
+            </Select>
+          </FormControl>
+        </Box>
+      );
+    }
+
+    // Render fields based on selected asset class
+    switch (formData.assetClass) {
       case 'Equity':
         return renderEquityFields();
       case 'Forex':

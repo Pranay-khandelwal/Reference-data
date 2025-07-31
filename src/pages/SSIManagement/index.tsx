@@ -899,7 +899,7 @@ const SSIManagement: React.FC = () => {
         <DialogTitle>Confirm Audit Note</DialogTitle>
         <DialogContent>
           <p>Do you want to save this change and log the following note?</p>
-          <Box sx={{ bgcolor: '#f0f4ff', p: 2, borderRadius: 1, mt: 1 }}>{auditNote}</Box>
+          <Box sx={{ bgcolor: '#E6F7FF', p: 2, borderRadius: 1, mt: 1 }}>{auditNote}</Box>
         </DialogContent>
         <DialogActions>
           <Button onClick={() => setAuditModalOpen(false)}>Cancel</Button>
