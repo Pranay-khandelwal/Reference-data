@@ -42,13 +42,13 @@ A comprehensive web application for managing reference data in financial markets
 
 1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd reference-data-management
+git clone https://github.com/Pranay-khandelwal/Reference-data.git
+cd Reference-data
 ```
 
 2. Install dependencies:
 ```bash
-npm install
+npm install --legacy-peer-deps
 # or
 yarn install
 ```
@@ -71,6 +71,28 @@ npm run build
 # or
 yarn build
 ```
+
+## Deployment
+
+### GitHub Pages
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. The deployment process:
+
+1. **Automatic Deployment**: Every push to the `main` branch triggers a new deployment
+2. **Build Process**: The GitHub Actions workflow builds the React app and deploys it to GitHub Pages
+3. **Live Site**: The application is available at: https://pranay-khandelwal.github.io/Reference-data/
+
+### Manual Deployment
+
+If you need to deploy manually:
+
+1. Build the project: `npm run build`
+2. The build output will be in the `build/` directory
+3. Deploy the contents of the `build/` directory to your hosting service
+
+### Environment Configuration
+
+The application uses Firebase for backend services. The Firebase configuration is already set up in `src/firebase/config.ts`.
 
 ## Project Structure
 
