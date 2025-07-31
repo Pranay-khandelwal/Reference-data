@@ -2,7 +2,6 @@
   "name": "reference-data-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pranay-khandelwal.github.io/Reference-data",
   "dependencies": {
     "@date-io/date-fns": "^3.2.1",
     "@emotion/react": "^11.11.0",
@@ -22,6 +21,7 @@
     "@types/node": "^16.18.30",
     "@types/papaparse": "^5.3.16",
     "@types/react-dom": "^18.2.4",
+    "ajv": "^8.17.1",
     "apexcharts": "^5.2.0",
     "axios": "^1.4.0",
     "cors": "^2.8.5",

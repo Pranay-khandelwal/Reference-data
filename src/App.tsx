@@ -18,18 +18,28 @@ import Login from './pages/Login';
 import SSIManagement from './pages/SSIManagement';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider } from './contexts/AuthContext';
+import ErrorBoundary from './components/ErrorBoundary';
 import './firebase/config'; // This will initialize Firebase
 import ConsolidatedData from './pages/ConsolidatedData';
 
 function App() {
   return (
-    <Provider store={store}>
-      <AuthProvider>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <Router>
-            <Routes>
-              <Route path="/login" element={<Login />} />
+    <ErrorBoundary>
+      <Provider store={store}>
+        <AuthProvider>
+          <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <Router>
+              <Routes>
+                <Route path="/login" element={<Login />} />
+                <Route path="/test" element={
+                  <div style={{ padding: '20px', textAlign: 'center' }}>
+                    <h1>Reference Data Management System</h1>
+                    <p>App is working! This is a test page.</p>
+                    <p>Firebase authentication is required to access the full application.</p>
+                    <a href="/login">Go to Login</a>
+                  </div>
+                } />
               <Route
                 element={
                   <Layout>
@@ -123,6 +133,7 @@ function App() {
         </ThemeProvider>
       </AuthProvider>
     </Provider>
+    </ErrorBoundary>
   );
 }
 
