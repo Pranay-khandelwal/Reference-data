@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+function AppSimple() {
   return (
     <div style={{ 
       padding: '20px', 
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App; 
+export default AppSimple; 
