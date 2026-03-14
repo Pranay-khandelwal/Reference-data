@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer utilities {
+  .animate-pulse-amber {
+    animation: pulseAmber 1.5s ease-in-out infinite;
+  }
+}
+
+@keyframes pulseAmber {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
